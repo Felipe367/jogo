@@ -16,3 +16,11 @@ Para executar no Windows:
 3. Abra o endereço mostrado pelo servidor, normalmente http://localhost:3000
 
 Importante: mantenha o PowerShell aberto enquanto jogar.
+
+Para publicar no GitHub Pages:
+1. Envie estes arquivos para um repositório no GitHub na branch main.
+2. No repositório, abra Settings > Pages e selecione GitHub Actions em Source.
+3. Faça um push na branch main ou execute o workflow "Publicar no GitHub Pages" pela aba Actions.
+4. Acesse a URL exibida em Settings > Pages ou no resumo da execução do workflow.
+
+O workflow está em .github/workflows/pages.yml e publica este projeto estático sem necessidade de build.
