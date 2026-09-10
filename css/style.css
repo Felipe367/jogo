@@ -1,0 +1,478 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#050912;color:#eef7ff;overflow:hidden}button{font:inherit;cursor:pointer}.screen{display:none;min-height:100vh}.screen.active{display:block}
+#menu{background:radial-gradient(circle at 50% 35%,#173a63 0,#07101d 42%,#02050a 100%);text-align:center;padding:7vh 20px}.logo{font-size:clamp(52px,11vw,110px);font-weight:900;letter-spacing:8px;text-shadow:0 0 25px #35bfff}.logo span{display:block;color:#eaf9ff}.logo b{color:#ffcc3a;font-size:.55em;letter-spacing:18px}.subtitle{color:#8ea6ba;letter-spacing:7px}.menu-card{width:min(560px,94vw);margin:5vh auto;padding:28px;border:1px solid #2d5976;border-radius:22px;background:#081525dd;box-shadow:0 0 50px #001d35}.main-btn,.small-btn,.difficulty button{border:0;border-radius:12px;padding:18px 20px;font-weight:800}.main-btn{width:100%;margin:8px 0;background:linear-gradient(135deg,#16a9e8,#3156e8);color:#fff;box-shadow:0 8px 20px #001b46}.main-btn.secondary{background:linear-gradient(135deg,#7b2cff,#d0288d)}.small-btn{margin-top:14px;background:#17283b;color:#dbefff;width:100%}.difficulty{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:8px 0}.difficulty button{padding:11px 4px;background:#122235;color:#8ea6ba}.difficulty .selected{background:#e9ae22;color:#111}.notice{color:#71859a;font-size:12px}
+header{height:70px;display:flex;align-items:center;gap:20px;padding:10px 18px;background:#07111e;border-bottom:1px solid #20354a}header h2{margin:0;flex:1}.back{background:none;color:#fff;border:0;font-size:30px}.search{margin:16px;width:calc(100% - 32px);padding:15px;border-radius:10px;border:1px solid #29465e;background:#0b1726;color:#fff}.deck-grid{height:calc(100vh - 135px);overflow:auto;padding:16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}.card-preview{background:linear-gradient(145deg,#16293c,#0b1420);border:1px solid #3b6a86;border-radius:12px;padding:13px;min-height:190px}.card-preview h3{font-size:15px;margin:0 0 12px;color:#ffd85a}.badge{display:inline-block;padding:4px 7px;border-radius:5px;background:#203f5a;font-size:10px;text-transform:uppercase}.stats{font-size:12px;color:#9eb3c5;margin-top:10px}.desc{font-size:11px;color:#c1d1dd;line-height:1.4}
+.duel-screen{background:radial-gradient(ellipse at center,#103451,#06131f 58%,#02070d);position:relative}.topbar{height:68px;background:#050b12dd;display:flex;align-items:center;justify-content:space-between;padding:8px 14px;border-bottom:1px solid #23445a}.icon{background:#132333;color:#fff;border:0;border-radius:9px;padding:10px}.turn-box{text-align:center}.turn-box span{font-size:11px;color:#91a9ba}.turn-box b{display:block;color:#ffd348}.lpbox{text-align:right}.lpbox span{font-size:10px;color:#91a9ba;display:block}.lpbox strong{font-size:24px;color:#ff4e61}.arena{height:calc(100vh - 108px);display:flex;flex-direction:column;justify-content:space-between;position:relative}.player-side{padding:10px 3vw;position:relative}.opponent{transform:rotate(180deg)}.lp-row{display:flex;gap:10px;align-items:center;font-weight:bold;font-size:12px}.lpbar{height:10px;background:#1a2834;border:1px solid #395062;border-radius:10px;flex:1;overflow:hidden}.lpbar i{display:block;height:100%;background:linear-gradient(90deg,#20db8a,#c6ff55);width:100%;transition:.4s}.zones{height:clamp(105px,16vh,150px);display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:8px auto;width:min(850px,95%);padding:7px;border-radius:15px;background:#0b2230aa;border:1px solid #2e6072}.zone{border:1px dashed #477081;border-radius:8px;background:linear-gradient(145deg,#102d3b88,#07131e88);display:flex;align-items:center;justify-content:center;color:#54717d;font-size:10px;text-align:center}.zone.occupied{background:linear-gradient(145deg,#203a50,#101b2a);border-style:solid;color:#fff}.mini-card{width:72%;height:90%;border-radius:5px;border:2px solid #cda94d;background:linear-gradient(145deg,#efe2bd,#876b36);color:#1c1710;padding:4px;font-size:7px;font-weight:bold;display:flex;flex-direction:column;justify-content:space-between;text-align:center}.mini-card.spell{background:#b6d8bf}.mini-card.trap{background:#d39bb2}.hand{height:105px;display:flex;justify-content:center;align-items:end;gap:5px;padding:5px}.hand .hand-card{width:58px;height:88px;border-radius:7px;border:2px solid #c9a94d;background:linear-gradient(135deg,#e9dfc5,#8d733d);color:#1b1610;padding:4px;font-size:7px;font-weight:bold;text-align:center;display:flex;align-items:center;justify-content:center;transition:.15s}.hand .hand-card:active{transform:translateY(-15px) scale(1.05)}.back-cards .hand-card{background:repeating-linear-gradient(45deg,#152a47 0,#152a47 5px,#234c72 5px,#234c72 10px);color:#9bb9ce}.divider{height:1px;background:#315466;position:absolute;left:10%;right:10%;top:50%;z-index:2}.divider span{position:absolute;left:50%;transform:translate(-50%,-50%);background:#071725;border:1px solid #395d71;padding:4px 12px;border-radius:20px;color:#f1c83f;font-size:11px}.field-actions{display:flex;justify-content:center;gap:8px;margin-bottom:5px}.field-actions button{background:#132b3d;color:#dcefff;border:1px solid #31566d;border-radius:8px;padding:8px 12px;font-size:11px;font-weight:bold}.log{position:absolute;right:12px;top:75px;width:220px;max-height:105px;overflow:hidden;background:#050b12aa;border:1px solid #294354;border-radius:8px;padding:7px;color:#8ea8b7;font-size:10px;pointer-events:none}.modal{position:absolute;inset:0;background:#000b;display:flex;align-items:center;justify-content:center;z-index:20}.modal.hidden{display:none}.modal-card{background:#0a1828;border:1px solid #41627a;border-radius:18px;padding:35px;max-width:400px;text-align:center;box-shadow:0 0 60px #000}.modal-card h2{color:#ffd34d}
+@media(max-width:700px){.difficulty button{font-size:10px}.log{width:160px;top:auto;bottom:5px;right:5px}.zones{height:95px}.hand{height:85px}.hand .hand-card{width:45px;height:70px}.field-actions button{font-size:9px;padding:7px}.player-side{padding-left:1vw;padding-right:1vw}}
+
+.hand-card:disabled{opacity:.72;cursor:not-allowed;filter:grayscale(.15)}
+.hand-card{border:0;}
+
+.hand-card{
+  appearance:none;
+  -webkit-appearance:none;
+  color:#17120d;
+  cursor:pointer;
+  user-select:none;
+  -webkit-tap-highlight-color:transparent;
+}
+.hand-card:disabled{
+  opacity:.85;
+}
+.hand-card:not(:disabled):hover{
+  transform:translateY(-10px) scale(1.04);
+  box-shadow:0 8px 18px #0009;
+}
+
+/* CARTAS IMPORTADAS DOS PACKS ENVIADOS */
+.catalog-image{
+  width:100%;
+  height:190px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:9px;
+  overflow:hidden;
+  border-radius:8px;
+  background:#02060a;
+}
+.catalog-image .card-art{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
+}
+.hand .hand-card{
+  position:relative;
+  overflow:hidden;
+  padding:0;
+  background:#101820;
+}
+.hand .hand-card .card-art{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.field-card{
+  width:100%;
+  height:100%;
+  padding:0;
+  border:0;
+  background:transparent;
+  overflow:hidden;
+  border-radius:7px;
+  cursor:pointer;
+}
+.field-card .card-art{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
+}
+.card-zone{
+  padding:4px;
+}
+.card-fallback{
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  font-size:10px;
+  color:#fff;
+}
+@media(max-width:700px){
+  .catalog-image{height:160px}
+  .hand .hand-card{width:58px;height:84px}
+}
+
+/* =========================================================
+   CARTA COMPLETA - nome / nível / arte / tipo / efeito / ATK DEF
+   ========================================================= */
+.duel-card{
+  position:relative;
+  box-sizing:border-box;
+  width:100%;
+  height:100%;
+  min-height:150px;
+  padding:5px;
+  border-radius:7px;
+  border:3px solid #a56b25;
+  background:linear-gradient(#e6bd72,#d99a3c);
+  color:#17100a;
+  font-family:Arial,Helvetica,sans-serif;
+  overflow:hidden;
+  box-shadow:0 2px 8px rgba(0,0,0,.55);
+}
+.duel-card-name{
+  height:18px;
+  line-height:18px;
+  padding:0 20px 0 4px;
+  margin-bottom:3px;
+  border:1px solid #6e451d;
+  background:#e8c27d;
+  font-size:10px;
+  font-weight:900;
+  text-align:left;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.duel-card-attribute{
+  position:absolute;
+  top:6px;
+  right:7px;
+  font-size:9px;
+  font-weight:900;
+}
+.duel-card-level{
+  height:11px;
+  line-height:11px;
+  font-size:8px;
+  letter-spacing:-1px;
+  color:#e8a81e;
+  text-shadow:0 1px 1px #6b3a00;
+  overflow:hidden;
+}
+.duel-card-art{
+  height:38%;
+  min-height:50px;
+  border:2px solid #6d431c;
+  background:#161616;
+  overflow:hidden;
+}
+.duel-card-art img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+}
+.card-art-missing{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#aaa;
+  font-size:9px;
+}
+.duel-card-info{
+  margin-top:3px;
+  border:1px solid #7b4d1f;
+  background:#e5c78d;
+  padding:3px;
+  height:calc(62% - 45px);
+  min-height:36px;
+  display:flex;
+  flex-direction:column;
+}
+.duel-card-type{
+  font-size:7px;
+  font-weight:900;
+  margin-bottom:2px;
+}
+.duel-card-effect{
+  font-size:7px;
+  line-height:1.15;
+  flex:1;
+  overflow:hidden;
+  text-align:left;
+}
+.duel-card-stats{
+  display:flex;
+  justify-content:flex-end;
+  gap:7px;
+  border-top:1px solid #5e401d;
+  padding-top:2px;
+  margin-top:2px;
+  font-size:8px;
+  font-weight:900;
+}
+
+/* Mini carta na mão */
+.full-hand-card{
+  width:82px !important;
+  height:116px !important;
+  min-width:82px;
+  padding:0 !important;
+  border:0 !important;
+  background:transparent !important;
+  overflow:visible !important;
+}
+.full-hand-card .duel-card{
+  min-height:0;
+  border-width:2px;
+  padding:3px;
+}
+.full-hand-card .duel-card-name{height:13px;line-height:13px;font-size:6px;padding-left:2px}
+.full-hand-card .duel-card-level{height:7px;line-height:7px;font-size:5px}
+.full-hand-card .duel-card-art{height:42%}
+.full-hand-card .duel-card-info{margin-top:2px;padding:2px;height:calc(58% - 27px);min-height:24px}
+.full-hand-card .duel-card-type{font-size:5px}
+.full-hand-card .duel-card-effect{font-size:4.5px;line-height:1.05}
+.full-hand-card .duel-card-stats{font-size:5px;gap:4px}
+.full-hand-card:hover:not(:disabled){
+  transform:translateY(-12px) scale(1.05);
+  z-index:20;
+}
+
+/* Carta no campo */
+.field-card-full{
+  width:100%;
+  height:100%;
+  padding:0;
+  border:0;
+  background:transparent;
+  cursor:pointer;
+}
+.field-card-full .duel-card{
+  min-height:0;
+}
+.field-card-full:hover .duel-card{
+  transform:scale(1.04);
+  z-index:10;
+}
+
+/* Catálogo */
+.full-card-preview{
+  padding:5px;
+  display:flex;
+  align-items:stretch;
+  justify-content:center;
+}
+.full-card-preview .duel-card{
+  width:150px;
+  height:218px;
+}
+
+/* Fundo de carta do adversário */
+.hand-card-back{
+  width:82px;
+  height:116px;
+  border-radius:8px;
+  border:3px solid #a67b36;
+  background:
+    repeating-linear-gradient(45deg,#1d2148 0,#1d2148 5px,#262c61 5px,#262c61 10px);
+  box-shadow:0 2px 6px #000;
+}
+@media(max-width:700px){
+  .full-hand-card{width:72px !important;height:102px !important;min-width:72px}
+  .hand-card-back{width:72px;height:102px}
+  .full-card-preview .duel-card{width:130px;height:190px}
+}
+
+/* Correção da mão do jogador */
+.hand{
+  overflow-x:auto;
+  overflow-y:visible;
+  -webkit-overflow-scrolling:touch;
+}
+.full-hand-card{
+  flex:0 0 auto !important;
+  display:block !important;
+  visibility:visible !important;
+}
+.full-hand-card .duel-card{
+  display:block !important;
+  visibility:visible !important;
+}
+
+/* =========================================================
+   ARENA VIRTUAL 3D + MONSTROS + MONTES
+   ========================================================= */
+.duel-row{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-height:95px;
+}
+.deck-pile{
+  width:48px;
+  height:70px;
+  flex:0 0 48px;
+  border-radius:5px;
+  border:2px solid #c79b42;
+  background:
+    linear-gradient(135deg,rgba(255,255,255,.12),transparent 30%),
+    repeating-linear-gradient(45deg,#161b40 0,#161b40 4px,#2a326b 4px,#2a326b 8px);
+  box-shadow:3px 4px 0 #05070d,5px 7px 0 #12182b,0 8px 15px #000b;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  color:#f3d26b;
+  font-size:7px;
+  font-weight:900;
+  transform:perspective(300px) rotateX(8deg);
+}
+.deck-pile b{
+  margin-top:5px;
+  font-size:12px;
+  color:#fff;
+}
+.virtual-battle{
+  position:absolute;
+  inset:8% 8% 30%;
+  z-index:30;
+  pointer-events:none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  perspective:900px;
+  overflow:hidden;
+}
+.virtual-battle.hidden{display:none}
+.virtual-ring{
+  position:absolute;
+  width:68%;
+  height:55%;
+  border:2px solid rgba(87,211,255,.45);
+  border-radius:50%;
+  transform:rotateX(65deg);
+  box-shadow:0 0 35px rgba(30,180,255,.35), inset 0 0 30px rgba(30,180,255,.2);
+}
+.battle-monster{
+  position:absolute;
+  width:170px;
+  height:245px;
+  transform-style:preserve-3d;
+  filter:drop-shadow(0 20px 15px #000);
+  transition:.2s;
+}
+.battle-attacker{
+  left:18%;
+  transform:rotateY(20deg) rotateZ(-2deg) translateZ(60px);
+}
+.battle-target{
+  right:18%;
+  transform:rotateY(-20deg) rotateZ(2deg) translateZ(40px);
+}
+.battle-card{
+  width:100% !important;
+  height:100% !important;
+  min-height:0 !important;
+  transform:translateZ(20px);
+  box-shadow:0 0 30px rgba(255,215,90,.28);
+}
+.battle-card .duel-card-name{font-size:10px}
+.battle-card .duel-card-effect{font-size:7px}
+.battle-caption{
+  position:absolute;
+  top:5%;
+  color:#ffe27a;
+  font-size:20px;
+  font-weight:1000;
+  letter-spacing:3px;
+  text-shadow:0 0 12px #ff8b00,0 3px 5px #000;
+  opacity:0;
+}
+.battle-impact{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%) scale(.2);
+  font-size:70px;
+  opacity:0;
+  z-index:50;
+  text-shadow:0 0 30px #fff,0 0 60px #ff5a00;
+}
+.battle-impact.show-impact{
+  animation:impactFlash .42s ease-out forwards;
+}
+.battle-run .battle-attacker{
+  animation:monsterAttack 1.05s cubic-bezier(.2,.8,.2,1) forwards;
+}
+.battle-run .battle-target{
+  animation:monsterHit 1.05s ease-in-out forwards;
+}
+.battle-run .battle-caption{
+  animation:captionBattle 1.3s ease-out forwards;
+}
+@keyframes monsterAttack{
+  0%{transform:rotateY(20deg) rotateZ(-2deg) translate3d(0,0,60px) scale(.92)}
+  35%{transform:rotateY(8deg) rotateZ(-5deg) translate3d(35px,-12px,110px) scale(1.06)}
+  58%{transform:rotateY(0) rotateZ(2deg) translate3d(150px,0,180px) scale(1.18)}
+  72%{transform:rotateY(-8deg) rotateZ(-2deg) translate3d(85px,8px,110px) scale(1.04)}
+  100%{transform:rotateY(20deg) rotateZ(-2deg) translate3d(0,0,60px) scale(.92)}
+}
+@keyframes monsterHit{
+  0%,45%{transform:rotateY(-20deg) rotateZ(2deg) translate3d(0,0,40px)}
+  58%{transform:rotateY(-8deg) rotateZ(8deg) translate3d(-28px,5px,80px) scale(1.08)}
+  66%{transform:rotateY(-25deg) rotateZ(-8deg) translate3d(20px,-3px,50px) scale(.96)}
+  76%{transform:rotateY(-20deg) rotateZ(2deg) translate3d(0,0,40px)}
+  100%{transform:rotateY(-20deg) rotateZ(2deg) translate3d(0,0,40px)}
+}
+@keyframes impactFlash{
+  0%{opacity:0;transform:translate(-50%,-50%) scale(.2) rotate(-15deg)}
+  25%{opacity:1;transform:translate(-50%,-50%) scale(1.25) rotate(8deg)}
+  100%{opacity:0;transform:translate(-50%,-50%) scale(1.8) rotate(0)}
+}
+@keyframes captionBattle{
+  0%{opacity:0;transform:translateY(-12px) scale(.7)}
+  20%,75%{opacity:1;transform:translateY(0) scale(1)}
+  100%{opacity:0;transform:translateY(-10px) scale(1.1)}
+}
+.field-card.selected .duel-card{
+  outline:3px solid #ffe35c;
+  box-shadow:0 0 25px #ffd32f;
+  transform:translateY(-7px);
+}
+@media(max-width:700px){
+  .duel-row{min-height:85px}
+  .deck-pile{width:38px;height:58px;flex-basis:38px}
+  .battle-monster{width:105px;height:150px}
+  .battle-attacker{left:4%}
+  .battle-target{right:4%}
+  .battle-caption{font-size:14px}
+}
+
+
+/* Ajustes finais da arena virtual 3D */
+.virtual-battle{
+  inset:10% 2% 22%;
+  z-index:100;
+  transform-style:preserve-3d;
+  background:radial-gradient(ellipse at center,rgba(18,91,125,.18),rgba(2,7,14,0) 62%);
+  border-radius:24px;
+}
+.virtual-ring{
+  width:min(760px,78%);
+  height:55%;
+}
+.battle-monster{
+  width:190px;
+  height:270px;
+  z-index:20;
+}
+.battle-attacker{left:16%;}
+.battle-target{right:16%;}
+.battle-card{
+  border:3px solid #ffe06a !important;
+  box-shadow:0 0 22px rgba(255,220,80,.55),0 18px 35px rgba(0,0,0,.75) !important;
+}
+.battle-direct-target{
+  position:absolute;
+  right:8%;
+  top:45%;
+  padding:14px 18px;
+  border:2px solid #5ee7ff;
+  border-radius:12px;
+  background:rgba(5,19,35,.9);
+  color:#7cecff;
+  font-weight:900;
+  letter-spacing:2px;
+  box-shadow:0 0 24px rgba(50,210,255,.35);
+}
+.deck-pile{
+  cursor:default;
+  user-select:none;
+}
+@media(max-width:700px){
+  .virtual-battle{inset:13% 0 25%;}
+  .battle-monster{width:115px;height:165px;}
+  .battle-attacker{left:2%;}
+  .battle-target{right:2%;}
+  .battle-direct-target{right:1%;font-size:9px;padding:9px 8px;}
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Yu-Gi Duel Arena</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <div id="menu" class="screen active">
+    <div class="logo"><span>DUEL</span><b>ARENA</b></div>
+    <p class="subtitle">CARD DUEL • TOUCH EDITION</p>
+    <div class="menu-card">
+      <button class="main-btn" onclick="startBot()">🤖 DUELO CONTRA BOT</button>
+      <div class="difficulty">
+        <button data-diff="easy" class="selected">FÁCIL</button>
+        <button data-diff="normal">NORMAL</button>
+        <button data-diff="hard">DIFÍCIL</button>
+        <button data-diff="expert">MESTRE</button>
+      </div>
+      <button class="main-btn secondary" onclick="startTwoPlayers()">👥 2 JOGADORES</button>
+      <button class="small-btn" onclick="showDeck()">🃏 VER 200+ CARTAS</button>
+    </div>
+    <p class="notice">Fan-made prototype • cartas importadas dos packs enviados</p>
+  </div>
+
+  <div id="deckScreen" class="screen">
+    <header><button class="back" onclick="backMenu()">←</button><h2>ARSENAL DE CARTAS</h2><span id="cardCount"></span></header>
+    <input id="search" class="search" placeholder="Pesquisar carta..." oninput="renderDeck()">
+    <div id="deckGrid" class="deck-grid"></div>
+  </div>
+
+  <div id="duel" class="screen duel-screen">
+    <div class="topbar">
+      <div><button class="icon" onclick="confirmExit()">☰</button></div>
+      <div class="turn-box"><span id="turnLabel">TURNO 1</span><b id="phaseLabel">DRAW PHASE</b></div>
+      <div class="lpbox"><span>OPONENTE</span><strong id="oppLP">4000</strong></div>
+    </div>
+    <div class="arena">
+      <div id="virtualBattle" class="virtual-battle hidden">
+        <div class="virtual-ring"></div>
+        <div class="battle-monster battle-attacker" id="battleAttacker"></div>
+        <div class="battle-monster battle-target" id="battleTarget"></div>
+        <div class="battle-impact" id="battleImpact">⚡</div>
+        <div class="battle-caption" id="battleCaption">ATAQUE!</div>
+      </div>
+      <div class="player-side opponent">
+        <div class="lp-row"><span id="oppName">BOT</span><div class="lpbar"><i id="oppBar"></i></div></div>
+        <div class="duel-row">
+          <div class="deck-pile" id="oppDeckPile" title="Deck do oponente">
+            <span>DECK</span><b id="oppDeckCount">30</b>
+          </div>
+          <div class="zones" id="oppZones"></div>
+        </div>
+        <div class="hand back-cards" id="oppHand"></div>
+      </div>
+      <div class="divider"><span>VS</span></div>
+      <div class="player-side player">
+        <div class="field-actions" id="fieldActions">
+          <button onclick="nextPhase()">FASE →</button>
+          <button onclick="endTurn()">ENCERRAR TURNO</button>
+          <button onclick="directAttack()">⚡ ATAQUE DIRETO</button>
+        </div>
+        <div class="duel-row">
+          <div class="deck-pile" id="myDeckPile" title="Seu deck">
+            <span>DECK</span><b id="myDeckCount">30</b>
+          </div>
+          <div class="zones" id="myZones"></div>
+        </div>
+        <div class="hand" id="myHand"></div>
+        <div class="lp-row"><span id="myName">JOGADOR 1</span><div class="lpbar"><i id="myBar"></i></div></div>
+      </div>
+    </div>
+    <div class="log" id="log"></div>
+    <div class="modal hidden" id="waitModal"><div class="modal-card"><h2>VEZ DO OUTRO JOGADOR</h2><p>Entregue o aparelho ao adversário.</p><button class="main-btn" onclick="closeWait()">CONTINUAR</button></div></div>
+  </div>
+</div>
+<script src="js/game.js"></script>
+</body>
+</html>
