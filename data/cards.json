@@ -7,7 +7,7 @@
     "atk": 637,
     "def": 711,
     "description": "Monstro de duelo. ATK 637 / DEF 711. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_01_01.jpg",
+    "image": "assets/pack2/carta_01_01.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -20,7 +20,7 @@
     "atk": 774,
     "def": 922,
     "description": "Monstro de duelo. ATK 774 / DEF 922. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_01_02.jpg",
+    "image": "assets/pack2/carta_01_02.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -33,7 +33,7 @@
     "atk": 911,
     "def": 1133,
     "description": "Monstro de duelo. ATK 911 / DEF 1133. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_01_03.jpg",
+    "image": "assets/pack2/carta_01_03.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -46,7 +46,7 @@
     "atk": 1048,
     "def": 1344,
     "description": "Monstro de duelo. ATK 1048 / DEF 1344. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_01_04.jpg",
+    "image": "assets/pack2/carta_01_04.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -59,7 +59,7 @@
     "atk": 1185,
     "def": 1555,
     "description": "Monstro de duelo. ATK 1185 / DEF 1555. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_01_05.jpg",
+    "image": "assets/pack2/carta_01_05.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -72,7 +72,7 @@
     "atk": 1322,
     "def": 1766,
     "description": "Monstro de duelo. ATK 1322 / DEF 1766. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_01_06.jpg",
+    "image": "assets/pack2/carta_01_06.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -85,7 +85,7 @@
     "atk": 1459,
     "def": 1977,
     "description": "Monstro de duelo. ATK 1459 / DEF 1977. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_01_07.jpg",
+    "image": "assets/pack2/carta_01_07.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -98,7 +98,7 @@
     "atk": 1596,
     "def": 2188,
     "description": "Monstro de duelo. ATK 1596 / DEF 2188. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_02_01.jpg",
+    "image": "assets/pack2/carta_02_01.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -111,7 +111,7 @@
     "atk": 1733,
     "def": 2399,
     "description": "Monstro de duelo. ATK 1733 / DEF 2399. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_02_02.jpg",
+    "image": "assets/pack2/carta_02_02.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -124,7 +124,7 @@
     "atk": 1870,
     "def": 2610,
     "description": "Monstro de duelo. ATK 1870 / DEF 2610. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_02_03.jpg",
+    "image": "assets/pack2/carta_02_03.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -137,7 +137,7 @@
     "atk": 2007,
     "def": 2821,
     "description": "Monstro de duelo. ATK 2007 / DEF 2821. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_02_04.jpg",
+    "image": "assets/pack2/carta_02_04.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -150,7 +150,7 @@
     "atk": 2144,
     "def": 3032,
     "description": "Monstro de duelo. ATK 2144 / DEF 3032. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_02_05.jpg",
+    "image": "assets/pack2/carta_02_05.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -163,7 +163,7 @@
     "atk": 2281,
     "def": 3243,
     "description": "Monstro de duelo. ATK 2281 / DEF 3243. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_02_06.jpg",
+    "image": "assets/pack2/carta_02_06.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -176,7 +176,7 @@
     "atk": 2418,
     "def": 3454,
     "description": "Monstro de duelo. ATK 2418 / DEF 3454. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_02_07.jpg",
+    "image": "assets/pack2/carta_02_07.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -189,7 +189,7 @@
     "atk": 2555,
     "def": 664,
     "description": "Monstro de duelo. ATK 2555 / DEF 664. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_03_01.jpg",
+    "image": "assets/pack2/carta_03_01.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -202,7 +202,7 @@
     "atk": 2692,
     "def": 875,
     "description": "Monstro de duelo. ATK 2692 / DEF 875. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_03_02.jpg",
+    "image": "assets/pack2/carta_03_02.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -215,7 +215,7 @@
     "atk": 2829,
     "def": 1086,
     "description": "Monstro de duelo. ATK 2829 / DEF 1086. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_03_03.jpg",
+    "image": "assets/pack2/carta_03_03.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -228,7 +228,7 @@
     "atk": 2966,
     "def": 1297,
     "description": "Monstro de duelo. ATK 2966 / DEF 1297. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_03_04.jpg",
+    "image": "assets/pack2/carta_03_04.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -241,7 +241,7 @@
     "atk": 3103,
     "def": 1508,
     "description": "Monstro de duelo. ATK 3103 / DEF 1508. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_03_05.jpg",
+    "image": "assets/pack2/carta_03_05.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -254,7 +254,7 @@
     "atk": 3240,
     "def": 1719,
     "description": "Monstro de duelo. ATK 3240 / DEF 1719. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_03_06.jpg",
+    "image": "assets/pack2/carta_03_06.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -267,7 +267,7 @@
     "atk": 3377,
     "def": 1930,
     "description": "Monstro de duelo. ATK 3377 / DEF 1930. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_03_07.jpg",
+    "image": "assets/pack2/carta_03_07.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -280,7 +280,7 @@
     "atk": 513,
     "def": 2141,
     "description": "Monstro de duelo. ATK 513 / DEF 2141. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_04_01.jpg",
+    "image": "assets/pack2/carta_04_01.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -293,7 +293,7 @@
     "atk": 650,
     "def": 2352,
     "description": "Monstro de duelo. ATK 650 / DEF 2352. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_04_02.jpg",
+    "image": "assets/pack2/carta_04_02.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -306,7 +306,7 @@
     "atk": 787,
     "def": 2563,
     "description": "Monstro de duelo. ATK 787 / DEF 2563. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_04_03.jpg",
+    "image": "assets/pack2/carta_04_03.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -319,7 +319,7 @@
     "atk": 924,
     "def": 2774,
     "description": "Monstro de duelo. ATK 924 / DEF 2774. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_04_04.jpg",
+    "image": "assets/pack2/carta_04_04.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -332,7 +332,7 @@
     "atk": 1061,
     "def": 2985,
     "description": "Monstro de duelo. ATK 1061 / DEF 2985. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_04_05.jpg",
+    "image": "assets/pack2/carta_04_05.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -345,7 +345,7 @@
     "atk": 1198,
     "def": 3196,
     "description": "Monstro de duelo. ATK 1198 / DEF 3196. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_04_06.jpg",
+    "image": "assets/pack2/carta_04_06.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -358,7 +358,7 @@
     "atk": 1335,
     "def": 3407,
     "description": "Monstro de duelo. ATK 1335 / DEF 3407. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_04_07.jpg",
+    "image": "assets/pack2/carta_04_07.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -371,7 +371,7 @@
     "atk": 1472,
     "def": 617,
     "description": "Monstro de duelo. ATK 1472 / DEF 617. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_05_01.jpg",
+    "image": "assets/pack2/carta_05_01.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -384,7 +384,7 @@
     "atk": 1609,
     "def": 828,
     "description": "Monstro de duelo. ATK 1609 / DEF 828. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_05_02.jpg",
+    "image": "assets/pack2/carta_05_02.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -397,7 +397,7 @@
     "atk": 1746,
     "def": 1039,
     "description": "Monstro de duelo. ATK 1746 / DEF 1039. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_05_03.jpg",
+    "image": "assets/pack2/carta_05_03.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -410,7 +410,7 @@
     "atk": 1883,
     "def": 1250,
     "description": "Monstro de duelo. ATK 1883 / DEF 1250. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_05_04.jpg",
+    "image": "assets/pack2/carta_05_04.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -423,7 +423,7 @@
     "atk": 2020,
     "def": 1461,
     "description": "Monstro de duelo. ATK 2020 / DEF 1461. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_05_05.jpg",
+    "image": "assets/pack2/carta_05_05.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -436,7 +436,7 @@
     "atk": 2157,
     "def": 1672,
     "description": "Monstro de duelo. ATK 2157 / DEF 1672. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_05_06.jpg",
+    "image": "assets/pack2/carta_05_06.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -449,7 +449,7 @@
     "atk": 2294,
     "def": 1883,
     "description": "Monstro de duelo. ATK 2294 / DEF 1883. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_05_07.jpg",
+    "image": "assets/pack2/carta_05_07.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -462,7 +462,7 @@
     "atk": 2431,
     "def": 2094,
     "description": "Monstro de duelo. ATK 2431 / DEF 2094. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_06_01.jpg",
+    "image": "assets/pack2/carta_06_01.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -475,7 +475,7 @@
     "atk": 2568,
     "def": 2305,
     "description": "Monstro de duelo. ATK 2568 / DEF 2305. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_06_02.jpg",
+    "image": "assets/pack2/carta_06_02.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -488,7 +488,7 @@
     "atk": 2705,
     "def": 2516,
     "description": "Monstro de duelo. ATK 2705 / DEF 2516. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_06_03.jpg",
+    "image": "assets/pack2/carta_06_03.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -501,7 +501,7 @@
     "atk": 2842,
     "def": 2727,
     "description": "Monstro de duelo. ATK 2842 / DEF 2727. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_06_04.jpg",
+    "image": "assets/pack2/carta_06_04.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -514,7 +514,7 @@
     "atk": 2979,
     "def": 2938,
     "description": "Monstro de duelo. ATK 2979 / DEF 2938. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_06_05.jpg",
+    "image": "assets/pack2/carta_06_05.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -527,7 +527,7 @@
     "atk": 3116,
     "def": 3149,
     "description": "Monstro de duelo. ATK 3116 / DEF 3149. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_06_06.jpg",
+    "image": "assets/pack2/carta_06_06.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -540,7 +540,7 @@
     "atk": 3253,
     "def": 3360,
     "description": "Monstro de duelo. ATK 3253 / DEF 3360. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_06_07.jpg",
+    "image": "assets/pack2/carta_06_07.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -553,7 +553,7 @@
     "atk": 3390,
     "def": 570,
     "description": "Monstro de duelo. ATK 3390 / DEF 570. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_07_01.jpg",
+    "image": "assets/pack2/carta_07_01.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -566,7 +566,7 @@
     "atk": 526,
     "def": 781,
     "description": "Monstro de duelo. ATK 526 / DEF 781. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_07_02.jpg",
+    "image": "assets/pack2/carta_07_02.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -579,7 +579,7 @@
     "atk": 663,
     "def": 992,
     "description": "Monstro de duelo. ATK 663 / DEF 992. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_07_03.jpg",
+    "image": "assets/pack2/carta_07_03.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -592,7 +592,7 @@
     "atk": 800,
     "def": 1203,
     "description": "Monstro de duelo. ATK 800 / DEF 1203. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_07_04.jpg",
+    "image": "assets/pack2/carta_07_04.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -605,7 +605,7 @@
     "atk": 937,
     "def": 1414,
     "description": "Monstro de duelo. ATK 937 / DEF 1414. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_07_05.jpg",
+    "image": "assets/pack2/carta_07_05.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -618,7 +618,7 @@
     "atk": 1074,
     "def": 1625,
     "description": "Monstro de duelo. ATK 1074 / DEF 1625. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_07_06.jpg",
+    "image": "assets/pack2/carta_07_06.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -631,7 +631,7 @@
     "atk": 1211,
     "def": 1836,
     "description": "Monstro de duelo. ATK 1211 / DEF 1836. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack2/carta_07_07.jpg",
+    "image": "assets/pack2/carta_07_07.jpg",
     "imageSource": "pack2",
     "attribute": "",
     "race": ""
@@ -644,7 +644,7 @@
     "atk": 1348,
     "def": 2047,
     "description": "Monstro de duelo. ATK 1348 / DEF 2047. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_01.jpg",
+    "image": "assets/pack1/carta_01_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -657,7 +657,7 @@
     "atk": 1485,
     "def": 2258,
     "description": "Monstro de duelo. ATK 1485 / DEF 2258. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_02.jpg",
+    "image": "assets/pack1/carta_01_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -670,7 +670,7 @@
     "atk": 1622,
     "def": 2469,
     "description": "Monstro de duelo. ATK 1622 / DEF 2469. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_03.jpg",
+    "image": "assets/pack1/carta_01_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -683,7 +683,7 @@
     "atk": 1759,
     "def": 2680,
     "description": "Monstro de duelo. ATK 1759 / DEF 2680. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_04.jpg",
+    "image": "assets/pack1/carta_01_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -696,7 +696,7 @@
     "atk": 1896,
     "def": 2891,
     "description": "Monstro de duelo. ATK 1896 / DEF 2891. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_05.jpg",
+    "image": "assets/pack1/carta_01_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -709,7 +709,7 @@
     "atk": 2033,
     "def": 3102,
     "description": "Monstro de duelo. ATK 2033 / DEF 3102. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_06.jpg",
+    "image": "assets/pack1/carta_01_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -722,7 +722,7 @@
     "atk": 2170,
     "def": 3313,
     "description": "Monstro de duelo. ATK 2170 / DEF 3313. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_07.jpg",
+    "image": "assets/pack1/carta_01_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -735,7 +735,7 @@
     "atk": 2307,
     "def": 523,
     "description": "Monstro de duelo. ATK 2307 / DEF 523. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_08.jpg",
+    "image": "assets/pack1/carta_01_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -748,7 +748,7 @@
     "atk": 2444,
     "def": 734,
     "description": "Monstro de duelo. ATK 2444 / DEF 734. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_09.jpg",
+    "image": "assets/pack1/carta_01_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -761,7 +761,7 @@
     "atk": 2581,
     "def": 945,
     "description": "Monstro de duelo. ATK 2581 / DEF 945. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_10.jpg",
+    "image": "assets/pack1/carta_01_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -774,7 +774,7 @@
     "atk": 2718,
     "def": 1156,
     "description": "Monstro de duelo. ATK 2718 / DEF 1156. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_11.jpg",
+    "image": "assets/pack1/carta_01_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -787,7 +787,7 @@
     "atk": 2855,
     "def": 1367,
     "description": "Monstro de duelo. ATK 2855 / DEF 1367. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_12.jpg",
+    "image": "assets/pack1/carta_01_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -800,7 +800,7 @@
     "atk": 2992,
     "def": 1578,
     "description": "Monstro de duelo. ATK 2992 / DEF 1578. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_13.jpg",
+    "image": "assets/pack1/carta_01_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -813,7 +813,7 @@
     "atk": 3129,
     "def": 1789,
     "description": "Monstro de duelo. ATK 3129 / DEF 1789. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_14.jpg",
+    "image": "assets/pack1/carta_01_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -826,7 +826,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Neos Force e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_01_15.jpg",
+    "image": "assets/pack1/carta_01_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -839,7 +839,7 @@
     "atk": 3403,
     "def": 2211,
     "description": "Monstro de duelo. ATK 3403 / DEF 2211. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_01_16.jpg",
+    "image": "assets/pack1/carta_01_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -852,7 +852,7 @@
     "atk": 539,
     "def": 2422,
     "description": "Monstro de duelo. ATK 539 / DEF 2422. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_01.jpg",
+    "image": "assets/pack1/carta_02_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -865,7 +865,7 @@
     "atk": 676,
     "def": 2633,
     "description": "Monstro de duelo. ATK 676 / DEF 2633. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_02.jpg",
+    "image": "assets/pack1/carta_02_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -878,7 +878,7 @@
     "atk": 813,
     "def": 2844,
     "description": "Monstro de duelo. ATK 813 / DEF 2844. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_03.jpg",
+    "image": "assets/pack1/carta_02_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -891,7 +891,7 @@
     "atk": 950,
     "def": 3055,
     "description": "Monstro de duelo. ATK 950 / DEF 3055. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_04.jpg",
+    "image": "assets/pack1/carta_02_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -904,7 +904,7 @@
     "atk": 1087,
     "def": 3266,
     "description": "Monstro de duelo. ATK 1087 / DEF 3266. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_05.jpg",
+    "image": "assets/pack1/carta_02_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -917,7 +917,7 @@
     "atk": 1224,
     "def": 3477,
     "description": "Monstro de duelo. ATK 1224 / DEF 3477. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_06.jpg",
+    "image": "assets/pack1/carta_02_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -930,7 +930,7 @@
     "atk": 1361,
     "def": 687,
     "description": "Monstro de duelo. ATK 1361 / DEF 687. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_07.jpg",
+    "image": "assets/pack1/carta_02_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -943,7 +943,7 @@
     "atk": 1498,
     "def": 898,
     "description": "Monstro de duelo. ATK 1498 / DEF 898. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_08.jpg",
+    "image": "assets/pack1/carta_02_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -956,7 +956,7 @@
     "atk": 1635,
     "def": 1109,
     "description": "Monstro de duelo. ATK 1635 / DEF 1109. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_09.jpg",
+    "image": "assets/pack1/carta_02_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -969,7 +969,7 @@
     "atk": 1772,
     "def": 1320,
     "description": "Monstro de duelo. ATK 1772 / DEF 1320. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_10.jpg",
+    "image": "assets/pack1/carta_02_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -982,7 +982,7 @@
     "atk": 1909,
     "def": 1531,
     "description": "Monstro de duelo. ATK 1909 / DEF 1531. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_11.jpg",
+    "image": "assets/pack1/carta_02_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -995,7 +995,7 @@
     "atk": 2046,
     "def": 1742,
     "description": "Monstro de duelo. ATK 2046 / DEF 1742. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_12.jpg",
+    "image": "assets/pack1/carta_02_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1008,7 +1008,7 @@
     "atk": 2183,
     "def": 1953,
     "description": "Monstro de duelo. ATK 2183 / DEF 1953. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_13.jpg",
+    "image": "assets/pack1/carta_02_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1021,7 +1021,7 @@
     "atk": 2320,
     "def": 2164,
     "description": "Monstro de duelo. ATK 2320 / DEF 2164. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_14.jpg",
+    "image": "assets/pack1/carta_02_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1034,7 +1034,7 @@
     "atk": 2457,
     "def": 2375,
     "description": "Monstro de duelo. ATK 2457 / DEF 2375. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_15.jpg",
+    "image": "assets/pack1/carta_02_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1047,7 +1047,7 @@
     "atk": 2594,
     "def": 2586,
     "description": "Monstro de duelo. ATK 2594 / DEF 2586. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_02_16.jpg",
+    "image": "assets/pack1/carta_02_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1060,7 +1060,7 @@
     "atk": 2731,
     "def": 2797,
     "description": "Monstro de duelo. ATK 2731 / DEF 2797. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_01.jpg",
+    "image": "assets/pack1/carta_03_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1073,7 +1073,7 @@
     "atk": 2868,
     "def": 3008,
     "description": "Monstro de duelo. ATK 2868 / DEF 3008. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_02.jpg",
+    "image": "assets/pack1/carta_03_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1086,7 +1086,7 @@
     "atk": 3005,
     "def": 3219,
     "description": "Monstro de duelo. ATK 3005 / DEF 3219. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_03.jpg",
+    "image": "assets/pack1/carta_03_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1099,7 +1099,7 @@
     "atk": 3142,
     "def": 3430,
     "description": "Monstro de duelo. ATK 3142 / DEF 3430. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_04.jpg",
+    "image": "assets/pack1/carta_03_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1112,7 +1112,7 @@
     "atk": 3279,
     "def": 640,
     "description": "Monstro de duelo. ATK 3279 / DEF 640. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_05.jpg",
+    "image": "assets/pack1/carta_03_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1125,7 +1125,7 @@
     "atk": 3416,
     "def": 851,
     "description": "Monstro de duelo. ATK 3416 / DEF 851. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_06.jpg",
+    "image": "assets/pack1/carta_03_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1138,7 +1138,7 @@
     "atk": 552,
     "def": 1062,
     "description": "Monstro de duelo. ATK 552 / DEF 1062. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_07.jpg",
+    "image": "assets/pack1/carta_03_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1151,7 +1151,7 @@
     "atk": 689,
     "def": 1273,
     "description": "Monstro de duelo. ATK 689 / DEF 1273. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_08.jpg",
+    "image": "assets/pack1/carta_03_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1164,7 +1164,7 @@
     "atk": 826,
     "def": 1484,
     "description": "Monstro de duelo. ATK 826 / DEF 1484. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_09.jpg",
+    "image": "assets/pack1/carta_03_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1177,7 +1177,7 @@
     "atk": 963,
     "def": 1695,
     "description": "Monstro de duelo. ATK 963 / DEF 1695. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_10.jpg",
+    "image": "assets/pack1/carta_03_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1190,7 +1190,7 @@
     "atk": 1100,
     "def": 1906,
     "description": "Monstro de duelo. ATK 1100 / DEF 1906. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_11.jpg",
+    "image": "assets/pack1/carta_03_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1203,7 +1203,7 @@
     "atk": 1237,
     "def": 2117,
     "description": "Monstro de duelo. ATK 1237 / DEF 2117. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_12.jpg",
+    "image": "assets/pack1/carta_03_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1216,7 +1216,7 @@
     "atk": 1374,
     "def": 2328,
     "description": "Monstro de duelo. ATK 1374 / DEF 2328. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_13.jpg",
+    "image": "assets/pack1/carta_03_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1229,7 +1229,7 @@
     "atk": 1511,
     "def": 2539,
     "description": "Monstro de duelo. ATK 1511 / DEF 2539. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_14.jpg",
+    "image": "assets/pack1/carta_03_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1242,7 +1242,7 @@
     "atk": 1648,
     "def": 2750,
     "description": "Monstro de duelo. ATK 1648 / DEF 2750. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_15.jpg",
+    "image": "assets/pack1/carta_03_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1255,7 +1255,7 @@
     "atk": 1785,
     "def": 2961,
     "description": "Monstro de duelo. ATK 1785 / DEF 2961. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_03_16.jpg",
+    "image": "assets/pack1/carta_03_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1268,7 +1268,7 @@
     "atk": 1922,
     "def": 3172,
     "description": "Monstro de duelo. ATK 1922 / DEF 3172. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_01.jpg",
+    "image": "assets/pack1/carta_04_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1281,7 +1281,7 @@
     "atk": 2059,
     "def": 3383,
     "description": "Monstro de duelo. ATK 2059 / DEF 3383. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_02.jpg",
+    "image": "assets/pack1/carta_04_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1294,7 +1294,7 @@
     "atk": 2196,
     "def": 593,
     "description": "Monstro de duelo. ATK 2196 / DEF 593. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_03.jpg",
+    "image": "assets/pack1/carta_04_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1307,7 +1307,7 @@
     "atk": 2333,
     "def": 804,
     "description": "Monstro de duelo. ATK 2333 / DEF 804. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_04.jpg",
+    "image": "assets/pack1/carta_04_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1320,7 +1320,7 @@
     "atk": 2470,
     "def": 1015,
     "description": "Monstro de duelo. ATK 2470 / DEF 1015. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_05.jpg",
+    "image": "assets/pack1/carta_04_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1333,7 +1333,7 @@
     "atk": 2607,
     "def": 1226,
     "description": "Monstro de duelo. ATK 2607 / DEF 1226. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_06.jpg",
+    "image": "assets/pack1/carta_04_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1346,7 +1346,7 @@
     "atk": 2744,
     "def": 1437,
     "description": "Monstro de duelo. ATK 2744 / DEF 1437. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_07.jpg",
+    "image": "assets/pack1/carta_04_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1359,7 +1359,7 @@
     "atk": 2881,
     "def": 1648,
     "description": "Monstro de duelo. ATK 2881 / DEF 1648. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_08.jpg",
+    "image": "assets/pack1/carta_04_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1372,7 +1372,7 @@
     "atk": 3018,
     "def": 1859,
     "description": "Monstro de duelo. ATK 3018 / DEF 1859. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_09.jpg",
+    "image": "assets/pack1/carta_04_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1385,7 +1385,7 @@
     "atk": 3155,
     "def": 2070,
     "description": "Monstro de duelo. ATK 3155 / DEF 2070. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_10.jpg",
+    "image": "assets/pack1/carta_04_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1398,7 +1398,7 @@
     "atk": 3292,
     "def": 2281,
     "description": "Monstro de duelo. ATK 3292 / DEF 2281. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_11.jpg",
+    "image": "assets/pack1/carta_04_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1411,7 +1411,7 @@
     "atk": 3429,
     "def": 2492,
     "description": "Monstro de duelo. ATK 3429 / DEF 2492. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_12.jpg",
+    "image": "assets/pack1/carta_04_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1424,7 +1424,7 @@
     "atk": 565,
     "def": 2703,
     "description": "Monstro de duelo. ATK 565 / DEF 2703. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_13.jpg",
+    "image": "assets/pack1/carta_04_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1437,7 +1437,7 @@
     "atk": 702,
     "def": 2914,
     "description": "Monstro de duelo. ATK 702 / DEF 2914. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_14.jpg",
+    "image": "assets/pack1/carta_04_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1450,7 +1450,7 @@
     "atk": 839,
     "def": 3125,
     "description": "Monstro de duelo. ATK 839 / DEF 3125. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_15.jpg",
+    "image": "assets/pack1/carta_04_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1463,7 +1463,7 @@
     "atk": 976,
     "def": 3336,
     "description": "Monstro de duelo. ATK 976 / DEF 3336. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_04_16.jpg",
+    "image": "assets/pack1/carta_04_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1476,7 +1476,7 @@
     "atk": 1113,
     "def": 546,
     "description": "Monstro de duelo. ATK 1113 / DEF 546. Use seus efeitos e estratégia para vencer.",
-    "image": "assets/cards/pack1/carta_05_01.jpg",
+    "image": "assets/pack1/carta_05_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1489,7 +1489,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Dark Magic Attack e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_02.jpg",
+    "image": "assets/pack1/carta_05_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1502,7 +1502,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Dark Magic Curtain e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_03.jpg",
+    "image": "assets/pack1/carta_05_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1515,7 +1515,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Thousand Knives e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_04.jpg",
+    "image": "assets/pack1/carta_05_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1528,7 +1528,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Magical Dimension e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_05.jpg",
+    "image": "assets/pack1/carta_05_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1541,7 +1541,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Mystical Space Typhoon e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_06.jpg",
+    "image": "assets/pack1/carta_05_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1554,7 +1554,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Heavy Storm e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_07.jpg",
+    "image": "assets/pack1/carta_05_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1567,7 +1567,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Raigeki e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_08.jpg",
+    "image": "assets/pack1/carta_05_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1580,7 +1580,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Monster Reborn e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_09.jpg",
+    "image": "assets/pack1/carta_05_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1593,7 +1593,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Pot of Greed e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_10.jpg",
+    "image": "assets/pack1/carta_05_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1606,7 +1606,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Graceful Charity e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_11.jpg",
+    "image": "assets/pack1/carta_05_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1619,7 +1619,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Change of Heart e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_12.jpg",
+    "image": "assets/pack1/carta_05_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1632,7 +1632,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Brain Control e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_13.jpg",
+    "image": "assets/pack1/carta_05_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1645,7 +1645,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Snatch Steal e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_14.jpg",
+    "image": "assets/pack1/carta_05_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1658,7 +1658,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Swords of Revealing Light e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_15.jpg",
+    "image": "assets/pack1/carta_05_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1671,7 +1671,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Polymerization e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_05_16.jpg",
+    "image": "assets/pack1/carta_05_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1684,7 +1684,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Fusion Gate e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_01.jpg",
+    "image": "assets/pack1/carta_06_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1697,7 +1697,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Fusion Recovery e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_02.jpg",
+    "image": "assets/pack1/carta_06_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1710,7 +1710,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Miracle Fusion e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_03.jpg",
+    "image": "assets/pack1/carta_06_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1723,7 +1723,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Neos Force e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_04.jpg",
+    "image": "assets/pack1/carta_06_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1736,7 +1736,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Skyscraper e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_05.jpg",
+    "image": "assets/pack1/carta_06_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1749,7 +1749,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Skyscraper 2 - Hero City e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_06.jpg",
+    "image": "assets/pack1/carta_06_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1762,7 +1762,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Ancient Gear Castle e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_07.jpg",
+    "image": "assets/pack1/carta_06_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1775,7 +1775,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Power Bond e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_08.jpg",
+    "image": "assets/pack1/carta_06_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1788,7 +1788,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Limiter Removal e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_09.jpg",
+    "image": "assets/pack1/carta_06_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1801,7 +1801,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Enemy Controller e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_10.jpg",
+    "image": "assets/pack1/carta_06_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1814,7 +1814,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Book of Moon e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_11.jpg",
+    "image": "assets/pack1/carta_06_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1827,7 +1827,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Premature Burial e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_12.jpg",
+    "image": "assets/pack1/carta_06_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1840,7 +1840,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Card Destruction e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_13.jpg",
+    "image": "assets/pack1/carta_06_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1853,7 +1853,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Dark Hole e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_14.jpg",
+    "image": "assets/pack1/carta_06_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1866,7 +1866,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Monster Gate e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_15.jpg",
+    "image": "assets/pack1/carta_06_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1879,7 +1879,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Reasoning e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_06_16.jpg",
+    "image": "assets/pack1/carta_06_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1892,7 +1892,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Soul Exchange e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_01.jpg",
+    "image": "assets/pack1/carta_07_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1905,7 +1905,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Tribute to The Doomed e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_02.jpg",
+    "image": "assets/pack1/carta_07_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1918,7 +1918,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Lightning Vortex e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_03.jpg",
+    "image": "assets/pack1/carta_07_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1931,7 +1931,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Mage Power e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_04.jpg",
+    "image": "assets/pack1/carta_07_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1944,7 +1944,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative United We Stand e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_05.jpg",
+    "image": "assets/pack1/carta_07_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1957,7 +1957,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Black Magic Ritual e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_06.jpg",
+    "image": "assets/pack1/carta_07_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1970,7 +1970,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Chaos Form e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_07.jpg",
+    "image": "assets/pack1/carta_07_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1983,7 +1983,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Black Luster Ritual e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_08.jpg",
+    "image": "assets/pack1/carta_07_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -1996,7 +1996,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Red-Eyes Insight e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_09.jpg",
+    "image": "assets/pack1/carta_07_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2009,7 +2009,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Red-Eyes Fusion e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_10.jpg",
+    "image": "assets/pack1/carta_07_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2022,7 +2022,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Polymerization Circuit e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_11.jpg",
+    "image": "assets/pack1/carta_07_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2035,7 +2035,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Harpie's Feather Duster e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_12.jpg",
+    "image": "assets/pack1/carta_07_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2048,7 +2048,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Harpie Lady's Hunting Ground e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_13.jpg",
+    "image": "assets/pack1/carta_07_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2061,7 +2061,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Elegant Egotist e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_14.jpg",
+    "image": "assets/pack1/carta_07_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2074,7 +2074,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Relinquished Ritual e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_15.jpg",
+    "image": "assets/pack1/carta_07_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2087,7 +2087,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Black Illusion Ritual e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_07_16.jpg",
+    "image": "assets/pack1/carta_07_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2100,7 +2100,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Gold Sarcophagus e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_01.jpg",
+    "image": "assets/pack1/carta_08_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2113,7 +2113,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Card of Sanctity e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_02.jpg",
+    "image": "assets/pack1/carta_08_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2126,7 +2126,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Magician's Salvation e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_03.jpg",
+    "image": "assets/pack1/carta_08_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2139,7 +2139,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Bond Between Teacher and Student e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_04.jpg",
+    "image": "assets/pack1/carta_08_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2152,7 +2152,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Dark Magical Circle e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_05.jpg",
+    "image": "assets/pack1/carta_08_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2165,7 +2165,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Illusion Magic e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_06.jpg",
+    "image": "assets/pack1/carta_08_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2178,7 +2178,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Magicalized Fusion e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_07.jpg",
+    "image": "assets/pack1/carta_08_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2191,7 +2191,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Spellbook of Secrets e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_08.jpg",
+    "image": "assets/pack1/carta_08_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2204,7 +2204,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Terraforming e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_09.jpg",
+    "image": "assets/pack1/carta_08_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2217,7 +2217,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Monster Recovery e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_10.jpg",
+    "image": "assets/pack1/carta_08_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2230,7 +2230,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Double Summon e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_11.jpg",
+    "image": "assets/pack1/carta_08_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2243,7 +2243,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Book of Secret Arts e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_12.jpg",
+    "image": "assets/pack1/carta_08_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2256,7 +2256,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Black Pendant e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_13.jpg",
+    "image": "assets/pack1/carta_08_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2269,7 +2269,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Sword of Deep-Seated e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_14.jpg",
+    "image": "assets/pack1/carta_08_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2282,7 +2282,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Horn of the Unicorn e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_15.jpg",
+    "image": "assets/pack1/carta_08_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2295,7 +2295,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Graceful Dice e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_08_16.jpg",
+    "image": "assets/pack1/carta_08_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2308,7 +2308,7 @@
     "atk": 0,
     "def": 0,
     "description": "Ative Time Wizard's Spell e resolva seu efeito durante sua fase principal.",
-    "image": "assets/cards/pack1/carta_09_01.jpg",
+    "image": "assets/pack1/carta_09_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2321,7 +2321,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Mirror Force quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_02.jpg",
+    "image": "assets/pack1/carta_09_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2334,7 +2334,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Magic Cylinder quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_03.jpg",
+    "image": "assets/pack1/carta_09_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2347,7 +2347,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Torrential Tribute quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_04.jpg",
+    "image": "assets/pack1/carta_09_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2360,7 +2360,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Sakuretsu Armor quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_05.jpg",
+    "image": "assets/pack1/carta_09_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2373,7 +2373,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Trap Hole quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_06.jpg",
+    "image": "assets/pack1/carta_09_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2386,7 +2386,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Bottomless Trap Hole quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_07.jpg",
+    "image": "assets/pack1/carta_09_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2399,7 +2399,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Call of the Haunted quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_08.jpg",
+    "image": "assets/pack1/carta_09_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2412,7 +2412,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Seven Tools of the Bandit quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_09.jpg",
+    "image": "assets/pack1/carta_09_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2425,7 +2425,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Magic Jammer quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_10.jpg",
+    "image": "assets/pack1/carta_09_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2438,7 +2438,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Dust Tornado quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_11.jpg",
+    "image": "assets/pack1/carta_09_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2451,7 +2451,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Waboku quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_12.jpg",
+    "image": "assets/pack1/carta_09_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2464,7 +2464,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Threatening Roar quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_13.jpg",
+    "image": "assets/pack1/carta_09_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2477,7 +2477,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Negate Attack quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_14.jpg",
+    "image": "assets/pack1/carta_09_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2490,7 +2490,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Dimensional Prison quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_15.jpg",
+    "image": "assets/pack1/carta_09_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2503,7 +2503,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Compulsory Evacuation Device quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_09_16.jpg",
+    "image": "assets/pack1/carta_09_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2516,7 +2516,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Solemn Judgment quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_01.jpg",
+    "image": "assets/pack1/carta_10_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2529,7 +2529,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Solemn Warning quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_02.jpg",
+    "image": "assets/pack1/carta_10_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2542,7 +2542,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Ceasefire quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_03.jpg",
+    "image": "assets/pack1/carta_10_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2555,7 +2555,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Gravity Bind quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_04.jpg",
+    "image": "assets/pack1/carta_10_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2568,7 +2568,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Ojama Trio quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_05.jpg",
+    "image": "assets/pack1/carta_10_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2581,7 +2581,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Just Desserts quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_06.jpg",
+    "image": "assets/pack1/carta_10_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2594,7 +2594,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Ring of Destruction quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_07.jpg",
+    "image": "assets/pack1/carta_10_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2607,7 +2607,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Shadow Spell quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_08.jpg",
+    "image": "assets/pack1/carta_10_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2620,7 +2620,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Kunai with Chain quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_09.jpg",
+    "image": "assets/pack1/carta_10_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2633,7 +2633,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Mirror Wall quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_10.jpg",
+    "image": "assets/pack1/carta_10_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2646,7 +2646,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Magic Drain quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_11.jpg",
+    "image": "assets/pack1/carta_10_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2659,7 +2659,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Jar of Greed quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_12.jpg",
+    "image": "assets/pack1/carta_10_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2672,7 +2672,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Needle Wall quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_13.jpg",
+    "image": "assets/pack1/carta_10_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2685,7 +2685,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Michizure quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_14.jpg",
+    "image": "assets/pack1/carta_10_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2698,7 +2698,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Rope of Life quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_15.jpg",
+    "image": "assets/pack1/carta_10_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2711,7 +2711,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Cloning quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_10_16.jpg",
+    "image": "assets/pack1/carta_10_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2724,7 +2724,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Metalmorph quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_01.jpg",
+    "image": "assets/pack1/carta_11_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2737,7 +2737,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Kunai Storm quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_02.jpg",
+    "image": "assets/pack1/carta_11_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2750,7 +2750,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative A Hero Emerges quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_03.jpg",
+    "image": "assets/pack1/carta_11_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2763,7 +2763,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Hero Signal quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_04.jpg",
+    "image": "assets/pack1/carta_11_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2776,7 +2776,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Hero Counterattack quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_05.jpg",
+    "image": "assets/pack1/carta_11_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2789,7 +2789,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Hero Barrier quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_06.jpg",
+    "image": "assets/pack1/carta_11_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2802,7 +2802,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Crystal Raigeki quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_07.jpg",
+    "image": "assets/pack1/carta_11_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2815,7 +2815,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Ancient Gear Reborn quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_08.jpg",
+    "image": "assets/pack1/carta_11_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2828,7 +2828,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Cyber Network quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_09.jpg",
+    "image": "assets/pack1/carta_11_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2841,7 +2841,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Cybernetic Hidden Technology quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_10.jpg",
+    "image": "assets/pack1/carta_11_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2854,7 +2854,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Ultimate Offering quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_11.jpg",
+    "image": "assets/pack1/carta_11_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2867,7 +2867,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Magician's Circle quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_12.jpg",
+    "image": "assets/pack1/carta_11_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2880,7 +2880,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Magical Hats quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_13.jpg",
+    "image": "assets/pack1/carta_11_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2893,7 +2893,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Spellbinding Circle quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_14.jpg",
+    "image": "assets/pack1/carta_11_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2906,7 +2906,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Torrential Reborn quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_15.jpg",
+    "image": "assets/pack1/carta_11_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2919,7 +2919,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Destiny Signal quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_11_16.jpg",
+    "image": "assets/pack1/carta_11_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2932,7 +2932,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Skill Drain quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_12_01.jpg",
+    "image": "assets/pack1/carta_12_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2945,7 +2945,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Rivalry of Warlords quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_12_02.jpg",
+    "image": "assets/pack1/carta_12_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2958,7 +2958,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Royal Decree quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_12_03.jpg",
+    "image": "assets/pack1/carta_12_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2971,7 +2971,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Dark Bribe quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_12_04.jpg",
+    "image": "assets/pack1/carta_12_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2984,7 +2984,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Interdimensional Matter Transporter quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_12_05.jpg",
+    "image": "assets/pack1/carta_12_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -2997,7 +2997,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Mirror Force Launcher quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_12_06.jpg",
+    "image": "assets/pack1/carta_12_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3010,7 +3010,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Dark Renewal quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_12_07.jpg",
+    "image": "assets/pack1/carta_12_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3023,7 +3023,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Magician Navigation quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_12_08.jpg",
+    "image": "assets/pack1/carta_12_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3036,7 +3036,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Eternal Soul quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_12_09.jpg",
+    "image": "assets/pack1/carta_12_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3049,7 +3049,7 @@
     "atk": 0,
     "def": 0,
     "description": "Armadilha: ative Red-Eyes Spirit quando sua condição for atendida.",
-    "image": "assets/cards/pack1/carta_12_10.jpg",
+    "image": "assets/pack1/carta_12_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3062,7 +3062,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_12_11.jpg",
+    "image": "assets/pack1/carta_12_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3075,7 +3075,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_12_12.jpg",
+    "image": "assets/pack1/carta_12_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3088,7 +3088,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_12_13.jpg",
+    "image": "assets/pack1/carta_12_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3101,7 +3101,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_12_14.jpg",
+    "image": "assets/pack1/carta_12_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3114,7 +3114,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_12_15.jpg",
+    "image": "assets/pack1/carta_12_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3127,7 +3127,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_12_16.jpg",
+    "image": "assets/pack1/carta_12_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3140,7 +3140,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_01.jpg",
+    "image": "assets/pack1/carta_13_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3153,7 +3153,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_02.jpg",
+    "image": "assets/pack1/carta_13_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3166,7 +3166,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_03.jpg",
+    "image": "assets/pack1/carta_13_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3179,7 +3179,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_04.jpg",
+    "image": "assets/pack1/carta_13_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3192,7 +3192,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_05.jpg",
+    "image": "assets/pack1/carta_13_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3205,7 +3205,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_06.jpg",
+    "image": "assets/pack1/carta_13_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3218,7 +3218,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_07.jpg",
+    "image": "assets/pack1/carta_13_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3231,7 +3231,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_08.jpg",
+    "image": "assets/pack1/carta_13_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3244,7 +3244,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_09.jpg",
+    "image": "assets/pack1/carta_13_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3257,7 +3257,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_10.jpg",
+    "image": "assets/pack1/carta_13_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3270,7 +3270,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_11.jpg",
+    "image": "assets/pack1/carta_13_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3283,7 +3283,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_12.jpg",
+    "image": "assets/pack1/carta_13_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3296,7 +3296,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_13.jpg",
+    "image": "assets/pack1/carta_13_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3309,7 +3309,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_14.jpg",
+    "image": "assets/pack1/carta_13_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3322,7 +3322,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_15.jpg",
+    "image": "assets/pack1/carta_13_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3335,7 +3335,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_13_16.jpg",
+    "image": "assets/pack1/carta_13_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3348,7 +3348,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_01.jpg",
+    "image": "assets/pack1/carta_14_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3361,7 +3361,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_02.jpg",
+    "image": "assets/pack1/carta_14_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3374,7 +3374,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_03.jpg",
+    "image": "assets/pack1/carta_14_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3387,7 +3387,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_04.jpg",
+    "image": "assets/pack1/carta_14_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3400,7 +3400,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_05.jpg",
+    "image": "assets/pack1/carta_14_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3413,7 +3413,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_06.jpg",
+    "image": "assets/pack1/carta_14_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3426,7 +3426,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_07.jpg",
+    "image": "assets/pack1/carta_14_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3439,7 +3439,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_08.jpg",
+    "image": "assets/pack1/carta_14_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3452,7 +3452,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_09.jpg",
+    "image": "assets/pack1/carta_14_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3465,7 +3465,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_10.jpg",
+    "image": "assets/pack1/carta_14_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3478,7 +3478,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_11.jpg",
+    "image": "assets/pack1/carta_14_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3491,7 +3491,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_12.jpg",
+    "image": "assets/pack1/carta_14_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3504,7 +3504,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_13.jpg",
+    "image": "assets/pack1/carta_14_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3517,7 +3517,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_14.jpg",
+    "image": "assets/pack1/carta_14_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3530,7 +3530,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_15.jpg",
+    "image": "assets/pack1/carta_14_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3543,7 +3543,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_14_16.jpg",
+    "image": "assets/pack1/carta_14_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3556,7 +3556,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_01.jpg",
+    "image": "assets/pack1/carta_15_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3569,7 +3569,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_02.jpg",
+    "image": "assets/pack1/carta_15_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3582,7 +3582,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_03.jpg",
+    "image": "assets/pack1/carta_15_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3595,7 +3595,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_04.jpg",
+    "image": "assets/pack1/carta_15_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3608,7 +3608,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_05.jpg",
+    "image": "assets/pack1/carta_15_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3621,7 +3621,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_06.jpg",
+    "image": "assets/pack1/carta_15_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3634,7 +3634,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_07.jpg",
+    "image": "assets/pack1/carta_15_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3647,7 +3647,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_08.jpg",
+    "image": "assets/pack1/carta_15_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3660,7 +3660,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_09.jpg",
+    "image": "assets/pack1/carta_15_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3673,7 +3673,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_10.jpg",
+    "image": "assets/pack1/carta_15_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3686,7 +3686,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_11.jpg",
+    "image": "assets/pack1/carta_15_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3699,7 +3699,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_12.jpg",
+    "image": "assets/pack1/carta_15_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3712,7 +3712,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_13.jpg",
+    "image": "assets/pack1/carta_15_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3725,7 +3725,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_14.jpg",
+    "image": "assets/pack1/carta_15_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3738,7 +3738,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_15.jpg",
+    "image": "assets/pack1/carta_15_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3751,7 +3751,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_15_16.jpg",
+    "image": "assets/pack1/carta_15_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3764,7 +3764,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_01.jpg",
+    "image": "assets/pack1/carta_16_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3777,7 +3777,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_02.jpg",
+    "image": "assets/pack1/carta_16_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3790,7 +3790,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_03.jpg",
+    "image": "assets/pack1/carta_16_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3803,7 +3803,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_04.jpg",
+    "image": "assets/pack1/carta_16_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3816,7 +3816,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_05.jpg",
+    "image": "assets/pack1/carta_16_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3829,7 +3829,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_06.jpg",
+    "image": "assets/pack1/carta_16_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3842,7 +3842,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_07.jpg",
+    "image": "assets/pack1/carta_16_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3855,7 +3855,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_08.jpg",
+    "image": "assets/pack1/carta_16_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3868,7 +3868,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_09.jpg",
+    "image": "assets/pack1/carta_16_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3881,7 +3881,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_10.jpg",
+    "image": "assets/pack1/carta_16_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3894,7 +3894,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_11.jpg",
+    "image": "assets/pack1/carta_16_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3907,7 +3907,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_12.jpg",
+    "image": "assets/pack1/carta_16_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3920,7 +3920,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_13.jpg",
+    "image": "assets/pack1/carta_16_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3933,7 +3933,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_14.jpg",
+    "image": "assets/pack1/carta_16_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3946,7 +3946,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_15.jpg",
+    "image": "assets/pack1/carta_16_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3959,7 +3959,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_16_16.jpg",
+    "image": "assets/pack1/carta_16_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3972,7 +3972,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_01.jpg",
+    "image": "assets/pack1/carta_17_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3985,7 +3985,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_02.jpg",
+    "image": "assets/pack1/carta_17_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -3998,7 +3998,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_03.jpg",
+    "image": "assets/pack1/carta_17_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4011,7 +4011,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_04.jpg",
+    "image": "assets/pack1/carta_17_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4024,7 +4024,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_05.jpg",
+    "image": "assets/pack1/carta_17_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4037,7 +4037,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_06.jpg",
+    "image": "assets/pack1/carta_17_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4050,7 +4050,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_07.jpg",
+    "image": "assets/pack1/carta_17_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4063,7 +4063,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_08.jpg",
+    "image": "assets/pack1/carta_17_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4076,7 +4076,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_09.jpg",
+    "image": "assets/pack1/carta_17_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4089,7 +4089,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_10.jpg",
+    "image": "assets/pack1/carta_17_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4102,7 +4102,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_11.jpg",
+    "image": "assets/pack1/carta_17_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4115,7 +4115,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_12.jpg",
+    "image": "assets/pack1/carta_17_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4128,7 +4128,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_13.jpg",
+    "image": "assets/pack1/carta_17_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4141,7 +4141,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_14.jpg",
+    "image": "assets/pack1/carta_17_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4154,7 +4154,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_15.jpg",
+    "image": "assets/pack1/carta_17_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4167,7 +4167,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_17_16.jpg",
+    "image": "assets/pack1/carta_17_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4180,7 +4180,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_01.jpg",
+    "image": "assets/pack1/carta_18_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4193,7 +4193,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_02.jpg",
+    "image": "assets/pack1/carta_18_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4206,7 +4206,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_03.jpg",
+    "image": "assets/pack1/carta_18_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4219,7 +4219,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_04.jpg",
+    "image": "assets/pack1/carta_18_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4232,7 +4232,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_05.jpg",
+    "image": "assets/pack1/carta_18_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4245,7 +4245,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_06.jpg",
+    "image": "assets/pack1/carta_18_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4258,7 +4258,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_07.jpg",
+    "image": "assets/pack1/carta_18_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4271,7 +4271,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_08.jpg",
+    "image": "assets/pack1/carta_18_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4284,7 +4284,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_09.jpg",
+    "image": "assets/pack1/carta_18_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4297,7 +4297,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_10.jpg",
+    "image": "assets/pack1/carta_18_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4310,7 +4310,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_11.jpg",
+    "image": "assets/pack1/carta_18_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4323,7 +4323,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_12.jpg",
+    "image": "assets/pack1/carta_18_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4336,7 +4336,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_13.jpg",
+    "image": "assets/pack1/carta_18_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4349,7 +4349,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_14.jpg",
+    "image": "assets/pack1/carta_18_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4362,7 +4362,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_15.jpg",
+    "image": "assets/pack1/carta_18_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4375,7 +4375,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_18_16.jpg",
+    "image": "assets/pack1/carta_18_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4388,7 +4388,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_01.jpg",
+    "image": "assets/pack1/carta_19_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4401,7 +4401,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_02.jpg",
+    "image": "assets/pack1/carta_19_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4414,7 +4414,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_03.jpg",
+    "image": "assets/pack1/carta_19_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4427,7 +4427,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_04.jpg",
+    "image": "assets/pack1/carta_19_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4440,7 +4440,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_05.jpg",
+    "image": "assets/pack1/carta_19_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4453,7 +4453,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_06.jpg",
+    "image": "assets/pack1/carta_19_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4466,7 +4466,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_07.jpg",
+    "image": "assets/pack1/carta_19_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4479,7 +4479,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_08.jpg",
+    "image": "assets/pack1/carta_19_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4492,7 +4492,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_09.jpg",
+    "image": "assets/pack1/carta_19_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4505,7 +4505,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_10.jpg",
+    "image": "assets/pack1/carta_19_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4518,7 +4518,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_11.jpg",
+    "image": "assets/pack1/carta_19_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4531,7 +4531,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_12.jpg",
+    "image": "assets/pack1/carta_19_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4544,7 +4544,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_13.jpg",
+    "image": "assets/pack1/carta_19_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4557,7 +4557,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_14.jpg",
+    "image": "assets/pack1/carta_19_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4570,7 +4570,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_15.jpg",
+    "image": "assets/pack1/carta_19_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4583,7 +4583,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_19_16.jpg",
+    "image": "assets/pack1/carta_19_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4596,7 +4596,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_01.jpg",
+    "image": "assets/pack1/carta_20_01.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4609,7 +4609,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_02.jpg",
+    "image": "assets/pack1/carta_20_02.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4622,7 +4622,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_03.jpg",
+    "image": "assets/pack1/carta_20_03.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4635,7 +4635,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_04.jpg",
+    "image": "assets/pack1/carta_20_04.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4648,7 +4648,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_05.jpg",
+    "image": "assets/pack1/carta_20_05.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4661,7 +4661,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_06.jpg",
+    "image": "assets/pack1/carta_20_06.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4674,7 +4674,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_07.jpg",
+    "image": "assets/pack1/carta_20_07.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4687,7 +4687,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_08.jpg",
+    "image": "assets/pack1/carta_20_08.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4700,7 +4700,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_09.jpg",
+    "image": "assets/pack1/carta_20_09.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4713,7 +4713,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_10.jpg",
+    "image": "assets/pack1/carta_20_10.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4726,7 +4726,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_11.jpg",
+    "image": "assets/pack1/carta_20_11.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4739,7 +4739,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_12.jpg",
+    "image": "assets/pack1/carta_20_12.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4752,7 +4752,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_13.jpg",
+    "image": "assets/pack1/carta_20_13.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4765,7 +4765,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_14.jpg",
+    "image": "assets/pack1/carta_20_14.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4778,7 +4778,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_15.jpg",
+    "image": "assets/pack1/carta_20_15.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4791,7 +4791,7 @@
     "atk": 1000,
     "def": 1000,
     "description": "Carta importada do pack enviado pelo usuário.",
-    "image": "assets/cards/pack1/carta_20_16.jpg",
+    "image": "assets/pack1/carta_20_16.jpg",
     "imageSource": "pack1",
     "attribute": "",
     "race": ""
@@ -4804,7 +4804,7 @@
     "atk": 9999,
     "def": 9999,
     "description": "Quando essa carta é jogada em campo sua masculinidade é questionada durante a mente.",
-    "image": "assets/cards/pack3/carta_especial_01.jpg",
+    "image": "assets/pack3/carta_especial_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4815,7 +4815,7 @@
     "atk": 2800,
     "def": 5000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_01_01.jpg",
+    "image": "assets/pack3/carta48_01_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4826,7 +4826,7 @@
     "atk": 4500,
     "def": 1200,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_01_02.jpg",
+    "image": "assets/pack3/carta48_01_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4837,7 +4837,7 @@
     "atk": 1600,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_01_03.jpg",
+    "image": "assets/pack3/carta48_01_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4848,7 +4848,7 @@
     "atk": 4000,
     "def": 1200,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_01_04.jpg",
+    "image": "assets/pack3/carta48_01_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4859,7 +4859,7 @@
     "atk": 5000,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_01_05.jpg",
+    "image": "assets/pack3/carta48_01_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4870,7 +4870,7 @@
     "atk": 1600,
     "def": 5000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_01_06.jpg",
+    "image": "assets/pack3/carta48_01_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4881,7 +4881,7 @@
     "atk": 1400,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_01_07.jpg",
+    "image": "assets/pack3/carta48_01_07.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4892,7 +4892,7 @@
     "atk": 1400,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_01_08.jpg",
+    "image": "assets/pack3/carta48_01_08.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4903,7 +4903,7 @@
     "atk": 3000,
     "def": 2300,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_02_01.jpg",
+    "image": "assets/pack3/carta48_02_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4914,7 +4914,7 @@
     "atk": 2800,
     "def": 1400,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_02_02.jpg",
+    "image": "assets/pack3/carta48_02_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4925,7 +4925,7 @@
     "atk": 2000,
     "def": 1200,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_02_03.jpg",
+    "image": "assets/pack3/carta48_02_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4936,7 +4936,7 @@
     "atk": 5000,
     "def": 2300,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_02_04.jpg",
+    "image": "assets/pack3/carta48_02_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4947,7 +4947,7 @@
     "atk": 1600,
     "def": 1800,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_02_05.jpg",
+    "image": "assets/pack3/carta48_02_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4958,7 +4958,7 @@
     "atk": 5000,
     "def": 5000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_02_06.jpg",
+    "image": "assets/pack3/carta48_02_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4969,7 +4969,7 @@
     "atk": 2500,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_02_07.jpg",
+    "image": "assets/pack3/carta48_02_07.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4980,7 +4980,7 @@
     "atk": 4000,
     "def": 3500,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_02_08.jpg",
+    "image": "assets/pack3/carta48_02_08.jpg",
     "imageSource": "pack3"
   },
   {
@@ -4991,7 +4991,7 @@
     "atk": 2500,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_03_01.jpg",
+    "image": "assets/pack3/carta48_03_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5002,7 +5002,7 @@
     "atk": 3500,
     "def": 1400,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_03_02.jpg",
+    "image": "assets/pack3/carta48_03_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5013,7 +5013,7 @@
     "atk": 1400,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_03_03.jpg",
+    "image": "assets/pack3/carta48_03_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5024,7 +5024,7 @@
     "atk": 4500,
     "def": 2000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_03_04.jpg",
+    "image": "assets/pack3/carta48_03_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5035,7 +5035,7 @@
     "atk": 4000,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_03_05.jpg",
+    "image": "assets/pack3/carta48_03_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5046,7 +5046,7 @@
     "atk": 2300,
     "def": 2000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_03_06.jpg",
+    "image": "assets/pack3/carta48_03_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5057,7 +5057,7 @@
     "atk": 2800,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_03_07.jpg",
+    "image": "assets/pack3/carta48_03_07.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5068,7 +5068,7 @@
     "atk": 2000,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_03_08.jpg",
+    "image": "assets/pack3/carta48_03_08.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5079,7 +5079,7 @@
     "atk": 2500,
     "def": 2000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_04_01.jpg",
+    "image": "assets/pack3/carta48_04_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5090,7 +5090,7 @@
     "atk": 2000,
     "def": 3000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_04_02.jpg",
+    "image": "assets/pack3/carta48_04_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5101,7 +5101,7 @@
     "atk": 4500,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_04_03.jpg",
+    "image": "assets/pack3/carta48_04_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5112,7 +5112,7 @@
     "atk": 3000,
     "def": 2000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_04_04.jpg",
+    "image": "assets/pack3/carta48_04_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5123,7 +5123,7 @@
     "atk": 5000,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_04_05.jpg",
+    "image": "assets/pack3/carta48_04_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5134,7 +5134,7 @@
     "atk": 2800,
     "def": 1400,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_04_06.jpg",
+    "image": "assets/pack3/carta48_04_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5145,7 +5145,7 @@
     "atk": 3000,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_04_07.jpg",
+    "image": "assets/pack3/carta48_04_07.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5156,7 +5156,7 @@
     "atk": 4500,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_04_08.jpg",
+    "image": "assets/pack3/carta48_04_08.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5167,7 +5167,7 @@
     "atk": 5000,
     "def": 2300,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_05_01.jpg",
+    "image": "assets/pack3/carta48_05_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5178,7 +5178,7 @@
     "atk": 2500,
     "def": 3000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_05_02.jpg",
+    "image": "assets/pack3/carta48_05_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5189,7 +5189,7 @@
     "atk": 1800,
     "def": 1600,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_05_03.jpg",
+    "image": "assets/pack3/carta48_05_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5200,7 +5200,7 @@
     "atk": 2500,
     "def": 3000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_05_04.jpg",
+    "image": "assets/pack3/carta48_05_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5211,7 +5211,7 @@
     "atk": 2300,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_05_05.jpg",
+    "image": "assets/pack3/carta48_05_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5222,7 +5222,7 @@
     "atk": 4000,
     "def": 1200,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_05_06.jpg",
+    "image": "assets/pack3/carta48_05_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5233,7 +5233,7 @@
     "atk": 5000,
     "def": 2500,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_05_07.jpg",
+    "image": "assets/pack3/carta48_05_07.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5244,7 +5244,7 @@
     "atk": 1800,
     "def": 1800,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_05_08.jpg",
+    "image": "assets/pack3/carta48_05_08.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5255,7 +5255,7 @@
     "atk": 4000,
     "def": 3500,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_06_01.jpg",
+    "image": "assets/pack3/carta48_06_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5266,7 +5266,7 @@
     "atk": 1800,
     "def": 5000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_06_02.jpg",
+    "image": "assets/pack3/carta48_06_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5277,7 +5277,7 @@
     "atk": 2500,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_06_03.jpg",
+    "image": "assets/pack3/carta48_06_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5288,7 +5288,7 @@
     "atk": 4000,
     "def": 1000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_06_04.jpg",
+    "image": "assets/pack3/carta48_06_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5299,7 +5299,7 @@
     "atk": 1600,
     "def": 2500,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_06_05.jpg",
+    "image": "assets/pack3/carta48_06_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5310,7 +5310,7 @@
     "atk": 1400,
     "def": 1400,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_06_06.jpg",
+    "image": "assets/pack3/carta48_06_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5321,7 +5321,7 @@
     "atk": 1800,
     "def": 3000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_06_07.jpg",
+    "image": "assets/pack3/carta48_06_07.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5332,7 +5332,7 @@
     "atk": 1400,
     "def": 1200,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta48_06_08.jpg",
+    "image": "assets/pack3/carta48_06_08.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5343,7 +5343,7 @@
     "atk": 2800,
     "def": 2000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_01_01.jpg",
+    "image": "assets/pack3/carta35_01_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5354,7 +5354,7 @@
     "atk": 3000,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_01_02.jpg",
+    "image": "assets/pack3/carta35_01_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5365,7 +5365,7 @@
     "atk": 5000,
     "def": 5000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_01_03.jpg",
+    "image": "assets/pack3/carta35_01_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5376,7 +5376,7 @@
     "atk": 2800,
     "def": 1200,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_01_04.jpg",
+    "image": "assets/pack3/carta35_01_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5387,7 +5387,7 @@
     "atk": 2000,
     "def": 2000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_01_05.jpg",
+    "image": "assets/pack3/carta35_01_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5398,7 +5398,7 @@
     "atk": 1800,
     "def": 1800,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_01_06.jpg",
+    "image": "assets/pack3/carta35_01_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5409,7 +5409,7 @@
     "atk": 1800,
     "def": 1200,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_01_07.jpg",
+    "image": "assets/pack3/carta35_01_07.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5420,7 +5420,7 @@
     "atk": 2000,
     "def": 3000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_02_01.jpg",
+    "image": "assets/pack3/carta35_02_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5431,7 +5431,7 @@
     "atk": 2500,
     "def": 2300,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_02_02.jpg",
+    "image": "assets/pack3/carta35_02_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5442,7 +5442,7 @@
     "atk": 4000,
     "def": 2300,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_02_03.jpg",
+    "image": "assets/pack3/carta35_02_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5453,7 +5453,7 @@
     "atk": 1800,
     "def": 1400,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_02_04.jpg",
+    "image": "assets/pack3/carta35_02_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5464,7 +5464,7 @@
     "atk": 2500,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_02_05.jpg",
+    "image": "assets/pack3/carta35_02_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5475,7 +5475,7 @@
     "atk": 1800,
     "def": 2000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_02_06.jpg",
+    "image": "assets/pack3/carta35_02_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5486,7 +5486,7 @@
     "atk": 2800,
     "def": 2500,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_02_07.jpg",
+    "image": "assets/pack3/carta35_02_07.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5497,7 +5497,7 @@
     "atk": 1800,
     "def": 1600,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_03_01.jpg",
+    "image": "assets/pack3/carta35_03_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5508,7 +5508,7 @@
     "atk": 3500,
     "def": 1600,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_03_02.jpg",
+    "image": "assets/pack3/carta35_03_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5519,7 +5519,7 @@
     "atk": 1200,
     "def": 5000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_03_03.jpg",
+    "image": "assets/pack3/carta35_03_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5530,7 +5530,7 @@
     "atk": 1600,
     "def": 3500,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_03_04.jpg",
+    "image": "assets/pack3/carta35_03_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5541,7 +5541,7 @@
     "atk": 1200,
     "def": 2000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_03_05.jpg",
+    "image": "assets/pack3/carta35_03_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5552,7 +5552,7 @@
     "atk": 3000,
     "def": 2500,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_03_06.jpg",
+    "image": "assets/pack3/carta35_03_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5563,7 +5563,7 @@
     "atk": 4000,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_03_07.jpg",
+    "image": "assets/pack3/carta35_03_07.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5574,7 +5574,7 @@
     "atk": 4000,
     "def": 1200,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_04_01.jpg",
+    "image": "assets/pack3/carta35_04_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5585,7 +5585,7 @@
     "atk": 3000,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_04_02.jpg",
+    "image": "assets/pack3/carta35_04_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5596,7 +5596,7 @@
     "atk": 2800,
     "def": 1400,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_04_03.jpg",
+    "image": "assets/pack3/carta35_04_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5607,7 +5607,7 @@
     "atk": 4000,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_04_04.jpg",
+    "image": "assets/pack3/carta35_04_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5618,7 +5618,7 @@
     "atk": 2300,
     "def": 4000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_04_05.jpg",
+    "image": "assets/pack3/carta35_04_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5629,7 +5629,7 @@
     "atk": 1800,
     "def": 5000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_04_06.jpg",
+    "image": "assets/pack3/carta35_04_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5640,7 +5640,7 @@
     "atk": 5000,
     "def": 3000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_04_07.jpg",
+    "image": "assets/pack3/carta35_04_07.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5651,7 +5651,7 @@
     "atk": 1200,
     "def": 3000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_05_01.jpg",
+    "image": "assets/pack3/carta35_05_01.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5662,7 +5662,7 @@
     "atk": 4500,
     "def": 2300,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_05_02.jpg",
+    "image": "assets/pack3/carta35_05_02.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5673,7 +5673,7 @@
     "atk": 4000,
     "def": 2300,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_05_03.jpg",
+    "image": "assets/pack3/carta35_05_03.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5684,7 +5684,7 @@
     "atk": 2300,
     "def": 2500,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_05_04.jpg",
+    "image": "assets/pack3/carta35_05_04.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5695,7 +5695,7 @@
     "atk": 1400,
     "def": 3000,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_05_05.jpg",
+    "image": "assets/pack3/carta35_05_05.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5706,7 +5706,7 @@
     "atk": 2800,
     "def": 2500,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_05_06.jpg",
+    "image": "assets/pack3/carta35_05_06.jpg",
     "imageSource": "pack3"
   },
   {
@@ -5717,7 +5717,7 @@
     "atk": 1400,
     "def": 1200,
     "description": "Monstro importado do novo pack de imagens. Ataque com animação virtual.",
-    "image": "assets/cards/pack3/carta35_05_07.jpg",
+    "image": "assets/pack3/carta35_05_07.jpg",
     "imageSource": "pack3"
   }
 ]
