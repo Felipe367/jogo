@@ -1,0 +1,4 @@
+As imagens enviadas foram separadas automaticamente em pack1 e pack2.
+pack2: 49 cartas (7 x 7), mantendo arte + ATK/DEF visíveis na imagem.
+pack1: 320 cartas (16 x 20), separadas individualmente.
+O jogo usa as imagens reais na mão, arena e catálogo.
