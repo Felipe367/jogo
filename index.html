@@ -7,9 +7,38 @@
 </head>
 <body>
 <div id="app">
-  <div id="menu" class="screen active">
+  <div id="loginScreen" class="screen auth-screen active">
+    <div class="auth-card">
+      <div class="logo"><span>DUEL</span><b>ARENA</b></div>
+      <p class="subtitle">ENTRAR NA ARENA</p>
+      <form id="loginForm" class="auth-form">
+        <label>Email<input name="email" type="email" autocomplete="email" required placeholder="seu@email.com"></label>
+        <label>Senha<input name="password" type="password" autocomplete="current-password" required placeholder="Sua senha"></label>
+        <button class="main-btn" type="submit">ENTRAR</button>
+      </form>
+      <button class="link-btn" onclick="showAuth('register')">Criar uma conta</button>
+    </div>
+  </div>
+
+  <div id="registerScreen" class="screen auth-screen">
+    <div class="auth-card">
+      <div class="logo"><span>DUEL</span><b>ARENA</b></div>
+      <p class="subtitle">CRIAR CONTA</p>
+      <form id="registerForm" class="auth-form">
+        <label>Nome do jogador<input name="username" maxlength="24" required placeholder="Nome que aparecerá no jogo"></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required placeholder="seu@email.com"></label>
+        <label>Senha<input name="password" type="password" minlength="6" autocomplete="new-password" required placeholder="Mínimo de 6 caracteres"></label>
+        <label>Confirmar senha<input name="confirmPassword" type="password" minlength="6" autocomplete="new-password" required placeholder="Digite a senha novamente"></label>
+        <button class="main-btn" type="submit">CRIAR CONTA</button>
+      </form>
+      <button class="link-btn" onclick="showAuth('login')">Voltar para entrar</button>
+    </div>
+  </div>
+
+  <div id="menu" class="screen">
     <div class="logo"><span>DUEL</span><b>ARENA</b></div>
     <p class="subtitle">CARD DUEL • TOUCH EDITION</p>
+    <div class="account-strip"><span>JOGADOR: <b id="accountName"></b></span><strong id="accountCredits">200 CRÉDITOS</strong></div>
     <div class="menu-card">
       <button class="main-btn" onclick="startBot()">🤖 DUELO CONTRA BOT</button>
       <div class="difficulty">
@@ -18,14 +47,15 @@
         <button data-diff="hard">DIFÍCIL</button>
         <button data-diff="expert">MESTRE</button>
       </div>
-      <button class="main-btn secondary" onclick="startTwoPlayers()">👥 2 JOGADORES</button>
-      <button class="small-btn" onclick="showDeck()">🃏 VER 200+ CARTAS</button>
+      <button class="small-btn" onclick="showShop()">🛒 LOJA / MINHAS CARTAS</button>
+      <button class="small-btn" onclick="showHistory()">📜 HISTÓRICO DE PARTIDAS</button>
+      <button class="logout-btn" onclick="logout()">SAIR DA CONTA</button>
     </div>
     <p class="notice">Fan-made prototype • cartas importadas dos packs enviados</p>
   </div>
 
   <div id="deckScreen" class="screen">
-    <header><button class="back" onclick="backMenu()">←</button><h2>ARSENAL DE CARTAS</h2><span id="cardCount"></span></header>
+    <header><button class="back" onclick="backMenu()">←</button><h2>LOJA / ARSENAL</h2><span id="cardCount"></span></header>
     <input id="search" class="search" placeholder="Pesquisar carta..." oninput="renderDeck()">
     <div id="deckGrid" class="deck-grid"></div>
   </div>
@@ -37,6 +67,25 @@
       <div class="lpbox"><span>OPONENTE</span><strong id="oppLP">4000</strong></div>
     </div>
     <div class="arena">
+      <aside class="card-inspector" id="cardInspector" aria-hidden="true">
+        <div class="inspector-header">
+          <span>CARTA SELECIONADA</span>
+          <button type="button" class="inspector-close" onclick="closeCardInspector()" aria-label="Fechar">×</button>
+        </div>
+        <div class="inspector-body">
+          <div class="inspector-card" id="inspectorCard"></div>
+          <div class="inspector-details">
+            <h2 id="inspectorName">SELECIONE UMA CARTA</h2>
+            <div class="inspector-stats" id="inspectorStats">ATK — &nbsp;&nbsp; DEF —</div>
+            <p id="inspectorDescription">Clique em uma carta da sua mão para ver seus dados e escolher como colocá-la no campo.</p>
+          </div>
+          <div class="inspector-actions" id="inspectorActions">
+            <button type="button" class="inspector-btn face-up" onclick="confirmInspectorPlacement(false)" disabled>▲ FACE PARA CIMA</button>
+            <button type="button" class="inspector-btn face-down" onclick="confirmInspectorPlacement(true)" disabled>🂠 FACE PARA BAIXO</button>
+          </div>
+        </div>
+      </aside>
+
       <div id="virtualBattle" class="virtual-battle hidden">
         <div class="virtual-ring"></div>
         <div class="battle-monster battle-attacker" id="battleAttacker"></div>
@@ -72,9 +121,14 @@
       </div>
     </div>
     <div class="log" id="log"></div>
+    <div class="side-panel" id="historyPanel">
+      <div class="history-card"><button class="inspector-close" onclick="closeHistory()">×</button><h2>HISTÓRICO</h2><div id="historyList"></div></div>
+    </div>
     <div class="modal hidden" id="waitModal"><div class="modal-card"><h2>VEZ DO OUTRO JOGADOR</h2><p>Entregue o aparelho ao adversário.</p><button class="main-btn" onclick="closeWait()">CONTINUAR</button></div></div>
+
   </div>
 </div>
 <script src="js/game.js"></script>
+<script src="js/account.js"></script>
 </body>
 </html>
