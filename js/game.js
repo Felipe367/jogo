@@ -34,6 +34,27 @@ function cardVisual(card, extraClass=""){
 let cards=[];
 let state=null;
 let selectedDiff="easy";
+let pendingPlacement=null;
+let pendingReveal=null;
+
+const CARD_BACK_IMAGE="assets/card-back.jpg";
+
+function fieldEntry(player,index){
+  return state?.fields?.[player]?.[index] || null;
+}
+
+function fieldCard(player,index){
+  const entry=fieldEntry(player,index);
+  return entry?.card || null;
+}
+
+function isFaceDown(player,index){
+  return !!fieldEntry(player,index)?.faceDown;
+}
+
+function canUseFieldCard(player,index){
+  return !!fieldCard(player,index) && !isFaceDown(player,index);
+}
 
 document.addEventListener("DOMContentLoaded",()=>{
   document.querySelectorAll(".difficulty button").forEach(button=>{
@@ -67,8 +88,8 @@ function screen(id){
 }
 
 function showDeck(){
-  screen("deckScreen");
-  renderDeck();
+  if(typeof showShop === "function") showShop();
+  else { screen("deckScreen"); renderDeck(); }
 }
 
 function backMenu(){
@@ -106,7 +127,7 @@ function shuffle(array){
   return a;
 }
 
-function makeDeck(){
+function makeDeck(cardPool=cards){
   if(cards.length===0){
     alert("As cartas ainda estão carregando. Tente novamente em um segundo.");
     return [];
@@ -114,7 +135,7 @@ function makeDeck(){
 
   // Cada jogador recebe um monte independente e embaralhado.
   // As cartas são sorteadas aleatoriamente do catálogo.
-  const pool=shuffle(cards);
+  const pool=shuffle(cardPool.length ? cardPool : cards);
   const deck=[];
   for(let i=0;i<30;i++){
     deck.push(pool[i % pool.length]);
@@ -123,49 +144,48 @@ function makeDeck(){
 }
 
 function startBot(){
-  startGame(false);
+  startGame();
 }
 
-function startTwoPlayers(){
-  startGame(true);
-}
-
-function startGame(twoPlayers){
-  const deck1=makeDeck();
-  const deck2=makeDeck();
+function startGame(){
+  if(typeof currentUser === "undefined" || !currentUser){
+    if(typeof showAuth === "function") showAuth("login");
+    return;
+  }
+  const ownedPool=cards.filter(card => ownedCardIds && ownedCardIds.has(Number(card.id)));
+  if(ownedPool.length < 30){
+    alert("Você precisa ter pelo menos 30 cartas para montar o deck.");
+    return;
+  }
+  const deck1=makeDeck(ownedPool);
+  const deck2=makeDeck(cards);
 
   if(!deck1.length || !deck2.length) return;
 
   state={
-    twoPlayers,
     turn:1,
     activePlayer:0,
     phase:0,
     lp:[4000,4000],
     decks:[deck1,deck2],
     hands:[[],[]],
-    fields:[Array(5).fill(null),Array(5).fill(null)],
+    // 10 zonas por jogador: duas fileiras de 5, mantendo a arena expansível.
+    fields:[Array(10).fill(null),Array(10).fill(null)],
     preparedTraps:[[],[]],
     selectedAttacker:null,
     animatingBattle:false,
-    gameOver:false
+    gameOver:false,
+    matchSaved:false
   };
 
   state.hands[0]=state.decks[0].splice(0,5);
   state.hands[1]=state.decks[1].splice(0,5);
 
-  document.getElementById("oppName").textContent=twoPlayers
-    ?"JOGADOR 2"
-    :"BOT • "+selectedDiff.toUpperCase();
-
-  document.getElementById("myName").textContent=twoPlayers
-    ?"JOGADOR 1"
-    :"JOGADOR 1";
+  document.getElementById("oppName").textContent="BOT • "+selectedDiff.toUpperCase();
+  document.getElementById("myName").textContent=currentUser.username.toUpperCase();
 
   screen("duel");
-  log(twoPlayers
-    ?"Duelo para 2 jogadores iniciado."
-    :"Duelo contra BOT iniciado.");
+  log("Duelo contra BOT iniciado.");
 
   render();
   beginPlayerTurn(0);
@@ -209,9 +229,7 @@ function beginPlayerTurn(player){
 
   render();
 
-  if(state.twoPlayers){
-    showWaitScreen(player);
-  }else if(player===1){
+  if(player===1){
     setTimeout(botTurn,700);
   }else{
     // Após a compra, o jogador pode avançar pelas fases normalmente.
@@ -221,28 +239,7 @@ function beginPlayerTurn(player){
 
 function playerName(player){
   if(!state) return "";
-  if(state.twoPlayers) return player===0?"JOGADOR 1":"JOGADOR 2";
   return player===0?"VOCÊ":"BOT";
-}
-
-function showWaitScreen(player){
-  const modal=document.getElementById("waitModal");
-  if(!modal) return;
-
-  modal.querySelector("h2").textContent=`VEZ DO ${playerName(player)}`;
-  modal.querySelector("p").textContent=
-    player===0
-      ?"Passe o aparelho para o Jogador 1."
-      :"Passe o aparelho para o Jogador 2.";
-
-  const button=modal.querySelector("button");
-  button.textContent="COMEÇAR TURNO";
-  button.onclick=()=>{
-    modal.classList.add("hidden");
-    render();
-  };
-
-  modal.classList.remove("hidden");
 }
 
 function render(){
@@ -269,15 +266,26 @@ function drawZones(player,id){
   const element=document.getElementById(id);
   if(!element) return;
 
-  element.innerHTML=state.fields[player].map((card,index)=>{
-    if(!card){
-      return `<div class="zone">ZONA ${index+1}</div>`;
+  element.innerHTML=state.fields[player].map((entry,index)=>{
+    if(!entry){
+      return `<div class="zone empty-zone"><span>ZONA ${index+1}</span></div>`;
     }
 
+    const card=entry.card || entry;
+    const faceDown=!!entry.faceDown;
+    const selected=player===0 && state.selectedAttacker===index && !faceDown;
+
     return `
-      <div class="zone occupied card-zone">
-        <button class="field-card ${card.type}" onclick="selectFieldCard(${player},${index})" title="${escapeHTML(card.name)}">
-          ${cardVisual(card)}
+      <div class="zone occupied card-zone ${faceDown ? "face-down-zone" : ""}">
+        <button type="button"
+          class="field-card ${card.type} ${faceDown ? "face-down" : "face-up"} ${selected ? "selected" : ""}"
+          onclick="selectFieldCard(${player},${index})"
+          title="${faceDown ? "Carta face para baixo" : escapeHTML(card.name)}"
+          aria-label="${faceDown ? "Carta face para baixo" : escapeHTML(card.name)}">
+          ${faceDown
+            ? `<img class="card-back-image" src="${CARD_BACK_IMAGE}" alt="Verso da carta">`
+            : cardVisual(card)}
+          ${faceDown ? `<span class="face-down-badge">FACE PARA BAIXO</span>` : ""}
         </button>
       </div>
     `;
@@ -286,12 +294,34 @@ function drawZones(player,id){
 
 function selectFieldCard(player,index){
   if(!state || state.gameOver || state.animatingBattle) return;
-  const card=state.fields[player]?.[index];
-  if(!card) return;
+  const entry=fieldEntry(player,index);
+  const card=entry?.card;
+  if(!entry || !card) return;
 
-  // Durante o turno do jogador: toque no seu monstro para escolher o atacante
-  // e depois toque no monstro adversário para iniciar a batalha.
+  if(player===0 && player===state.activePlayer && entry.faceDown){
+    pendingReveal={player,index};
+    openRevealModal();
+    return;
+  }
+
+  if(entry.faceDown){
+    log(player===0
+      ? "Essa carta está face para baixo. Vire-a para cima antes de usá-la."
+      : "Essa carta está face para baixo.");
+    return;
+  }
+
   if(player===state.activePlayer && player===0){
+    if(state.phase!==3 && state.phase!==4){
+      log("Entre na BATTLE PHASE para atacar.");
+      return;
+    }
+
+    if(card.type!=="monster"){
+      log("Somente monstros podem ser escolhidos como atacantes.");
+      return;
+    }
+
     if(state.selectedAttacker===index){
       state.selectedAttacker=null;
       log(`Ataque de ${card.name} cancelado.`);
@@ -308,8 +338,8 @@ function selectFieldCard(player,index){
       log("Primeiro selecione um dos seus monstros.");
       return;
     }
-    const attacker=state.fields[0][state.selectedAttacker];
-    if(!attacker){
+    const attacker=fieldCard(0,state.selectedAttacker);
+    if(!attacker || isFaceDown(0,state.selectedAttacker)){
       state.selectedAttacker=null;
       render();
       return;
@@ -329,12 +359,13 @@ function directAttack(){
     return;
   }
 
-  const index=state.selectedAttacker!==null
+  const index=state.selectedAttacker!==null && canUseFieldCard(0,state.selectedAttacker)
     ? state.selectedAttacker
-    : state.fields[0].findIndex(Boolean);
-  const attacker=state.fields[0][index];
+    : state.fields[0].findIndex(entry=>entry && !entry.faceDown && entry.card?.type==="monster");
+  const attacker=fieldCard(0,index);
+
   if(!attacker){
-    log("Você não tem monstro para atacar.");
+    log("Você não tem monstro face para cima para atacar.");
     return;
   }
   if(state.fields[1].some(Boolean)){
@@ -355,9 +386,25 @@ function directAttack(){
 function resolveBattle(attackerPlayer,attackerIndex,targetPlayer,targetIndex,onDone){
   if(!state || state.gameOver || state.animatingBattle) return;
 
-  const attacker=state.fields[attackerPlayer]?.[attackerIndex];
-  const target=state.fields[targetPlayer]?.[targetIndex];
+  const attackerEntry=fieldEntry(attackerPlayer,attackerIndex);
+  const targetEntry=fieldEntry(targetPlayer,targetIndex);
+  const attacker=attackerEntry?.card;
+  const target=targetEntry?.card;
   if(!attacker || !target) return;
+
+  // Regra absoluta: carta face para baixo não pode ser usada em batalha.
+  // Ela só volta a ser utilizável depois de revealSelectedCard().
+  if(!canUseFieldCard(attackerPlayer,attackerIndex)){
+    state.selectedAttacker=null;
+    log("Uma carta face para baixo não pode atacar. Vire-a para cima primeiro.");
+    render();
+    return;
+  }
+
+  if(targetEntry.faceDown){
+    targetEntry.faceDown=false;
+    log(`${target.name} foi revelada durante a batalha.`);
+  }
 
   state.selectedAttacker=null;
   const atkA=Number(attacker.atk||0);
@@ -483,34 +530,159 @@ function playCard(player,index){
       return;
     }
 
-    state.fields[player][slot]=card;
-    state.hands[player].splice(index,1);
-    log(`${playerName(player)} invocou ${card.name}.`);
+    pendingPlacement={player,index,slot};
+    openCardInspector(card,{mode:"placement"});
+    return;
   }
-  else if(card.type==="spell"){
-    state.hands[player].splice(index,1);
 
+  // Magias e armadilhas também passam pela lateral para que a carta
+  // selecionada fique sempre visível antes de uma ação.
+  pendingPlacement={player,index,slot:null};
+  openCardInspector(card,{mode:card.type==="spell"?"spell":"trap"});
+}
+
+function openCardInspector(card, options={}){
+  const panel=document.getElementById("cardInspector");
+  const preview=document.getElementById("inspectorCard");
+  const name=document.getElementById("inspectorName");
+  const stats=document.getElementById("inspectorStats");
+  const description=document.getElementById("inspectorDescription");
+  const actions=document.getElementById("inspectorActions");
+  if(!panel || !preview) return;
+
+  const mode=options.mode || "placement";
+  preview.innerHTML=cardVisual(card,"inspector-card-visual");
+  name.textContent=card.name || "CARTA";
+  stats.textContent=card.type==="monster"
+    ? `ATK ${card.atk ?? "—"}   •   DEF ${card.def ?? "—"}`
+    : (card.type==="spell" ? "MAGIA" : "ARMADILHA");
+  description.textContent=card.description || "Sem efeito cadastrado.";
+
+  if(mode==="placement"){
+    actions.innerHTML=`
+      <button type="button" class="inspector-btn face-up" onclick="confirmInspectorPlacement(false)">▲ FACE PARA CIMA</button>
+      <button type="button" class="inspector-btn face-down" onclick="confirmInspectorPlacement(true)">🂠 FACE PARA BAIXO</button>
+      <button type="button" class="inspector-btn cancel" onclick="cancelInspectorSelection()">CANCELAR</button>`;
+  }else if(mode==="spell"){
+    actions.innerHTML=`
+      <button type="button" class="inspector-btn face-up" onclick="confirmInspectorAction()">⚡ ATIVAR MAGIA</button>
+      <button type="button" class="inspector-btn cancel" onclick="cancelInspectorSelection()">CANCELAR</button>`;
+  }else{
+    actions.innerHTML=`
+      <button type="button" class="inspector-btn face-down" onclick="confirmInspectorAction()">🂠 PREPARAR ARMADILHA</button>
+      <button type="button" class="inspector-btn cancel" onclick="cancelInspectorSelection()">CANCELAR</button>`;
+  }
+
+  panel.classList.add("open");
+  panel.setAttribute("aria-hidden","false");
+}
+
+function closeCardInspector(){
+  const panel=document.getElementById("cardInspector");
+  if(panel){
+    panel.classList.remove("open");
+    panel.setAttribute("aria-hidden","true");
+  }
+}
+
+function cancelInspectorSelection(){
+  pendingPlacement=null;
+  pendingReveal=null;
+  closeCardInspector();
+}
+
+function confirmInspectorPlacement(faceDown){
+  if(!state || !pendingPlacement) return;
+  const {player,index,slot}=pendingPlacement;
+  const card=state.hands[player]?.[index];
+  if(!card || slot===null || slot===undefined){
+    cancelInspectorSelection();
+    return;
+  }
+
+  state.fields[player][slot]={card,faceDown:!!faceDown};
+  state.hands[player].splice(index,1);
+  pendingPlacement=null;
+  closeCardInspector();
+
+  log(faceDown
+    ? `${playerName(player)} colocou ${card.name} face para baixo.`
+    : `${playerName(player)} invocou ${card.name} face para cima.`);
+  render();
+  checkWin();
+}
+
+function confirmInspectorAction(){
+  if(!state || !pendingPlacement) return;
+  const {player,index}=pendingPlacement;
+  const card=state.hands[player]?.[index];
+  if(!card){ cancelInspectorSelection(); return; }
+
+  state.hands[player].splice(index,1);
+  const opponent=1-player;
+
+  if(card.type==="spell"){
     const damage=150+Math.floor(Math.random()*351);
-    const opponent=1-player;
-
     state.lp[opponent]=Math.max(0,state.lp[opponent]-damage);
     log(`${playerName(player)} ativou ${card.name} e causou ${damage} de dano.`);
-  }
-  else{
-    state.hands[player].splice(index,1);
+  }else{
     state.preparedTraps[player].push(card);
     log(`${playerName(player)} preparou ${card.name}.`);
   }
 
+  pendingPlacement=null;
+  closeCardInspector();
   render();
   checkWin();
+}
+
+function openRevealModal(){
+  if(!state || !pendingReveal) return;
+  const entry=fieldEntry(pendingReveal.player,pendingReveal.index);
+  if(!entry) return;
+
+  const panel=document.getElementById("cardInspector");
+  const preview=document.getElementById("inspectorCard");
+  const name=document.getElementById("inspectorName");
+  const stats=document.getElementById("inspectorStats");
+  const description=document.getElementById("inspectorDescription");
+  const actions=document.getElementById("inspectorActions");
+  if(!panel || !preview) return;
+
+  preview.innerHTML=`<div class="inspector-back"><img src="${CARD_BACK_IMAGE}" alt="Verso da carta"></div>`;
+  name.textContent="CARTA FACE PARA BAIXO";
+  stats.textContent="ATK —   •   DEF —";
+  description.textContent="Os dados desta carta estão escondidos enquanto ela estiver face para baixo.";
+  actions.innerHTML=`
+    <button type="button" class="inspector-btn face-up" onclick="revealSelectedCard()">👁️ VIRAR PARA CIMA</button>
+    <button type="button" class="inspector-btn cancel" onclick="cancelReveal()">CANCELAR</button>`;
+  panel.classList.add("open");
+  panel.setAttribute("aria-hidden","false");
+}
+
+function revealSelectedCard(){
+  if(!state || !pendingReveal) return;
+  const {player,index}=pendingReveal;
+  const entry=fieldEntry(player,index);
+  if(!entry){ cancelReveal(); return; }
+
+  entry.faceDown=false;
+  const name=entry.card?.name || "Carta";
+  pendingReveal=null;
+  closeCardInspector();
+  log(`${name} foi virada para cima e agora pode ser usada.`);
+  render();
+}
+
+function cancelReveal(){
+  pendingReveal=null;
+  closeCardInspector();
 }
 
 function nextPhase(){
   if(!state || state.gameOver) return;
 
   const p=state.activePlayer;
-  if(!state.twoPlayers && p!==0) return;
 
   if(state.phase<5){
     state.phase++;
@@ -524,19 +696,13 @@ function endTurn(){
 
   const p=state.activePlayer;
 
-  if(!state.twoPlayers && p!==0) return;
 
   log(`${playerName(p)} encerrou o turno.`);
 
-  if(state.twoPlayers){
-    state.turn++;
-    beginPlayerTurn(1-p);
-  }else{
-    state.activePlayer=1;
-    state.phase=0;
-    render();
-    setTimeout(botTurn,700);
-  }
+  state.activePlayer=1;
+  state.phase=0;
+  render();
+  setTimeout(botTurn,700);
 }
 
 function botTurn(){
@@ -563,8 +729,8 @@ function botTurn(){
     const slot=state.fields[1].findIndex(x=>x===null);
     if(slot!==-1){
       const card=hand.splice(monsterIndex,1)[0];
-      state.fields[1][slot]=card;
-      log(`BOT invocou ${card.name}.`);
+      state.fields[1][slot]={card,faceDown:false};
+      log(`BOT invocou ${card.name} face para cima.`);
     }
   }
 
@@ -592,11 +758,11 @@ function botTurn(){
     setTimeout(()=>{
       if(!state || state.gameOver) return;
 
-      const attackerIndex=state.fields[1].findIndex(Boolean);
+      const attackerIndex=state.fields[1].findIndex(entry=>entry && !entry.faceDown && entry.card?.type==="monster");
       const targetIndex=state.fields[0].findIndex(Boolean);
 
       if(attackerIndex!==-1){
-        const attacker=state.fields[1][attackerIndex];
+        const attacker=fieldCard(1,attackerIndex);
         if(targetIndex!==-1){
           resolveBattle(1,attackerIndex,0,targetIndex,()=>{
             if(!state || state.gameOver) return;
@@ -631,21 +797,26 @@ function checkWin(){
 
   let winner=null;
 
-  if(state.lp[0]<=0) winner=state.twoPlayers?"JOGADOR 2":"BOT";
-  if(state.lp[1]<=0) winner="JOGADOR 1";
+  if(state.lp[0]<=0) winner="BOT";
+  if(state.lp[1]<=0) winner=currentUser?.username?.toUpperCase() || "JOGADOR";
 
   if(!winner) return false;
 
   state.gameOver=true;
+  const playerWon = winner !== "BOT";
+  if(typeof recordMatch === "function") recordMatch(playerWon ? "win" : "loss");
 
   const modal=document.getElementById("waitModal");
   modal.querySelector("h2").textContent=`${winner} VENCEU!`;
-  modal.querySelector("p").textContent="O duelo terminou.";
+  modal.querySelector("p").textContent=playerWon
+    ? `Vitória no modo ${({easy:"fácil",normal:"normal",hard:"difícil",expert:"mestre"}[selectedDiff] || selectedDiff)}. Recompensa: +${({easy:20,normal:30,hard:40,expert:50}[selectedDiff] || 0)} créditos.`
+    : "A partida foi registrada no seu histórico.";
   const button=modal.querySelector("button");
   button.textContent="VOLTAR AO MENU";
   button.onclick=()=>{
     modal.classList.add("hidden");
     state=null;
+    if(typeof refreshAccount === "function") refreshAccount().catch(()=>{});
     screen("menu");
   };
   modal.classList.remove("hidden");
